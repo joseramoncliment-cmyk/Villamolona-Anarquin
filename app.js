@@ -7,6 +7,7 @@ let comodinPendiente = false;
 
 // Estado Test
 let preguntasTest = [];
+let historialTest = [];
 let currentIndexTest = 0;
 let aciertosTest = 0;
 let testTimerInterval;
@@ -219,6 +220,7 @@ function iniciarModoTest() {
   
   // Mezclar preguntas y coger 10
   preguntasTest = [...preguntasDB].sort(() => 0.5 - Math.random()).slice(0, 10);
+  historialTest = [];
   currentIndexTest = 0;
   aciertosTest = 0;
   timeRemaining = 180;
@@ -293,6 +295,13 @@ function seleccionarDatoTest(seleccion, correcta, btn) {
 function avanzarTest() {
   if (eleccionTestActual === correctaTestActual) aciertosTest++;
   
+  historialTest.push({
+    pregunta: preguntasTest[currentIndexTest].pregunta,
+    opciones: preguntasTest[currentIndexTest].opciones,
+    eleccion: eleccionTestActual,
+    correcta: correctaTestActual
+  });
+  
   currentIndexTest++;
   if (currentIndexTest >= 10) {
     clearInterval(testTimerInterval);
@@ -314,6 +323,26 @@ function finalizarModoTest(porTiempo) {
   document.getElementById('resultado-titulo').innerText = `Puntuación: ${aciertosTest}/10`;
   document.getElementById('resultado-texto').innerText = texto;
   
+  let htmlResumen = '<h3>Resumen Táctico</h3>';
+  historialTest.forEach((item, i) => {
+    htmlResumen += `<div class="resumen-item">
+      <div class="resumen-pregunta">${i + 1}. ${item.pregunta}</div>`;
+      
+    if (item.eleccion === item.correcta) {
+      htmlResumen += `<div class="resumen-respuesta respuesta-correcta">✅ ${item.opciones[item.correcta]}</div>`;
+    } else {
+      if (item.eleccion !== null && item.eleccion !== undefined) {
+         htmlResumen += `<div class="resumen-respuesta respuesta-fallada">❌ Tu cagada: ${item.opciones[item.eleccion]}</div>`;
+      } else {
+         htmlResumen += `<div class="resumen-respuesta respuesta-fallada">⏱️ Sin responder</div>`;
+      }
+      htmlResumen += `<div class="resumen-respuesta respuesta-correcta">👉 Correcta: ${item.opciones[item.correcta]}</div>`;
+    }
+    htmlResumen += `</div>`;
+  });
+  
+  document.getElementById('resumen-test-container').innerHTML = htmlResumen;
+  
   const btnPdf = document.getElementById('btn-descargar-pdf');
   btnPdf.style.display = "inline-block";
   btnPdf.onclick = () => generarPDF(aciertosTest, texto);
@@ -321,13 +350,32 @@ function finalizarModoTest(porTiempo) {
   show('pantalla-resultados');
 }
 
-function generarPDF(puntos, texto) {
+async function generarPDF(puntos, texto) {
+  const btnPdf = document.getElementById('btn-descargar-pdf');
+  btnPdf.innerText = "Generando PDF...";
+  btnPdf.disabled = true;
+
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
   
   // Fondo oscuro
   doc.setFillColor(5, 5, 5);
   doc.rect(0, 0, 210, 297, "F");
+
+  try {
+    const response = await fetch("VillaMolona General.png");
+    const blob = await response.blob();
+    const bit = await createImageBitmap(blob);
+    const canvas = document.createElement('canvas');
+    canvas.width = bit.width;
+    canvas.height = bit.height;
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(bit, 0, 0);
+    const base64Data = canvas.toDataURL("image/png");
+    doc.addImage(base64Data, "PNG", 15, 15, 30, 30);
+  } catch (e) {
+    console.warn("Logo no encontrado", e);
+  }
 
   // Texto Magenta
   doc.setTextColor(255, 0, 255);
@@ -341,16 +389,66 @@ function generarPDF(puntos, texto) {
   
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(16);
-  doc.text(`Puntuación Obtenida: ${puntos} / 10`, 105, 100, null, null, "center");
+  doc.text(`Puntuación: ${puntos} / ${historialTest.length}`, 105, 80, null, null, "center");
   
   doc.setFont("helvetica", "italic");
   doc.setFontSize(12);
-  const textLines = doc.splitTextToSize(`Comentario Oficial: ${texto}`, 150);
-  doc.text(textLines, 105, 130, null, null, "center");
+  const textLines = doc.splitTextToSize(`Comentario: ${texto}`, 150);
+  doc.text(textLines, 105, 100, null, null, "center");
+
+  let currentY = 130;
+  doc.setTextColor(255, 255, 255);
+  doc.setFontSize(14);
+  doc.setFont("helvetica", "bold");
+  doc.text("Historial del Test:", 15, currentY);
+  currentY += 15;
+  
+  doc.setFontSize(10);
+  doc.setFont("helvetica", "normal");
+  
+  for (let i = 0; i < historialTest.length; i++) {
+    let item = historialTest[i];
+    
+    // Check if we need a new page BEFORE wrapping the question text
+    if (currentY > 260) {
+      doc.addPage();
+      doc.setFillColor(5, 5, 5);
+      doc.rect(0, 0, 210, 297, "F");
+      currentY = 20;
+    }
+    
+    // Pregunta
+    const pregLines = doc.splitTextToSize(`${i+1}. ${item.pregunta}`, 180);
+    doc.setTextColor(255, 255, 255);
+    doc.text(pregLines, 15, currentY);
+    currentY += pregLines.length * 5;
+    
+    // Respuestas
+    if (item.eleccion === item.correcta) {
+      doc.setTextColor(0, 255, 65);
+      const riLines = doc.splitTextToSize(`Acierto: ${item.opciones[item.correcta]}`, 180);
+      doc.text(riLines, 15, currentY);
+      currentY += riLines.length * 5 + 5;
+    } else {
+      let failText = item.eleccion !== null && item.eleccion !== undefined ? item.opciones[item.eleccion] : "Sin responder";
+      doc.setTextColor(255, 0, 60);
+      const failLines = doc.splitTextToSize(`Fallo: ${failText}`, 180);
+      doc.text(failLines, 15, currentY);
+      currentY += failLines.length * 5;
+      
+      doc.setTextColor(0, 255, 65);
+      const rightLines = doc.splitTextToSize(`Correcta: ${item.opciones[item.correcta]}`, 180);
+      doc.text(rightLines, 15, currentY);
+      currentY += rightLines.length * 5 + 5;
+    }
+  }
 
   doc.setTextColor(255, 0, 255);
   doc.setFontSize(10);
-  doc.text("Generado automáticamente por el protocolo Molon-IA.", 105, 280, null, null, "center");
+  doc.text("Generado automáticamente por el protocolo Molon-IA.", 105, 285, null, null, "center");
 
   doc.save("Reporte_Anarquin_Test.pdf");
+  
+  btnPdf.innerText = "Descargar PDF Irónico";
+  btnPdf.disabled = false;
 }

@@ -280,3 +280,41 @@ h1, h2, h3 {
   justify-content: center;
   margin-top: 20px;
 }
+
+/* --- RESUMEN DEL TEST --- */
+.resumen-container {
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 20px 0;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  border: 1px solid var(--glass-border);
+  text-align: left;
+}
+.resumen-item {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.resumen-item:last-child {
+  border-bottom: none;
+}
+.resumen-pregunta {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.resumen-respuesta {
+  font-size: 0.95rem;
+  margin: 4px 0;
+}
+.respuesta-correcta {
+  color: var(--acid-green);
+  text-shadow: 0 0 5px var(--acid-green-glow);
+}
+.respuesta-fallada {
+  color: var(--neon-red);
+  text-shadow: 0 0 5px var(--neon-red-glow);
+  text-decoration: line-through;
+}
