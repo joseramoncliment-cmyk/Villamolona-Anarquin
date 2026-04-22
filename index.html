@@ -12,7 +12,15 @@
   <h1 class="title-anton">ANARQUÍN MOLÓN</h1>
   
   <!-- Pantalla de Selección de Modo -->
-  <div id="pantalla-inicio" class="glass-panel">
+  <!-- Pantalla de Carga -->
+  <div id="pantalla-cargando" class="glass-panel game-container">
+    <div class="loading-spinner"></div>
+    <h2 style="color: var(--neon-blue); margin-top: 30px;">Consultando el BOE...</h2>
+    <p id="loading-mensaje" style="text-align:center; margin-top: 20px; color: var(--text-muted); font-size: 1rem;">Inicializando protocolo Anarquín...</p>
+    <p style="text-align:center; margin-top: 10px; color: var(--text-muted); font-size: 0.8rem; opacity: 0.6;">Gemini está leyendo la ley por ti. De nada.</p>
+  </div>
+
+  <div id="pantalla-inicio" class="glass-panel hidden">
     <h2 style="text-align: center; margin-bottom: 2rem;">¿Listo para llorar, opositor?</h2>
     <div id="mode-selector">
       <button class="btn-cyber" id="btn-modo-trivial">Constitución Trivial</button>
