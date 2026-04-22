@@ -218,8 +218,15 @@ Devuelve ÚNICAMENTE un array JSON válido sin ningún texto adicional ni markdo
     }
   );
 
-  if (!response.ok) throw new Error(`Gemini HTTP ${response.status}`);
+  if (!response.ok) {
+    const errBody = await response.text();
+    throw new Error(`Proxy HTTP ${response.status}: ${errBody}`);
+  }
   const data = await response.json();
+  if (data._modelUsed) console.log(`🚀 Modelo activo: ${data._modelUsed}`);
+  if (!data.candidates || !data.candidates[0]) {
+    throw new Error(`Respuesta inválida de Gemini: ${JSON.stringify(data)}`);
+  }
   const text = data.candidates[0].content.parts[0].text;
   return JSON.parse(text);
 }
