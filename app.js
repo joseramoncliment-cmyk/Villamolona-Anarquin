@@ -291,7 +291,7 @@ async function generarTableroCompleto() {
 async function cargarBaseDeDatosLocal() {
   mostrarCargando("Cargando la sagrada enciclopedia de Anarquín...");
   try {
-    const resp = await fetch("preguntas.json");
+    const resp = await fetch("preguntas.json?v=" + new Date().getTime(), { cache: "no-store" });
     if (!resp.ok) throw new Error("No se pudo cargar preguntas.json");
     preguntasDB = await resp.json();
     console.log(`✅ Base de datos estática cargada: ${preguntasDB.length} preguntas.`);
