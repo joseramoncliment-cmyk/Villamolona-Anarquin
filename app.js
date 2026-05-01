@@ -12,6 +12,16 @@ const DB_VERSION = "2026-05-01-v2";
 const LS_KEY_PREGUNTAS = "anarquin_preguntas";
 const LS_KEY_VERSION  = "anarquin_db_version";
 
+// Sonidos y colores por índice de categoría (0-4) y victoria final
+const CELEBRACION_CONFIG = {
+  0: { sonido: "Sounds/all right.mp3",  color: "rgba(255, 0, 255, 0.45)"  },  // Fucsia
+  1: { sonido: "Sounds/ou yeah.mp3",    color: "rgba(0, 229, 255, 0.45)"  },  // Azul Eléctrico
+  2: { sonido: "Sounds/tomalo.mp3",     color: "rgba(0, 255, 65, 0.45)"   },  // Verde Ácido
+  3: { sonido: "Sounds/yes.mp3",        color: "rgba(255, 140, 0, 0.45)"  },  // Naranja
+  4: { sonido: "Sounds/yijale.mp3",     color: "rgba(255, 0, 60, 0.45)"   },  // Rojo
+  final: { sonido: "Sounds/win.mp3",   color: "rgba(255, 215, 0, 0.55)"  }   // Victoria
+};
+
 
 // ==========================================
 // BANCO DE ARTÍCULOS POR CATEGORÍA
@@ -498,10 +508,11 @@ function checkTrivialRespuesta(seleccion, correcta, explicacion, esDorado, color
     if (esDorado) {
       document.getElementById("slot-final").classList.add("active");
       victoriaConseguida = true;
-      setTimeout(finalizarJuegoTrivial, 2000);
+      mostrarCelebracion("final", () => setTimeout(finalizarJuegoTrivial, 500));
     } else {
       anarquinesConseguidos[colorIndex] = true;
       document.getElementById(`slot-${colorIndex}`).classList.add("active");
+      mostrarCelebracion(colorIndex);
     }
   }
 }
@@ -721,4 +732,68 @@ async function generarPDF(puntos, texto) {
 
   btnPdf.innerText = "Descargar PDF Irónico";
   btnPdf.disabled = false;
+}
+
+// ==========================================
+// OVERLAY CELEBRACIÓN ANARQUÍN
+// ==========================================
+let _celebracionTimeout = null;
+
+function mostrarCelebracion(key, callback) {
+  const cfg = CELEBRACION_CONFIG[key];
+  if (!cfg) return;
+
+  // Sonido
+  try {
+    const audio = new Audio(cfg.sonido);
+    audio.volume = 0.85;
+    audio.play().catch(() => {});
+  } catch(e) {}
+
+  // Color del glow
+  const glow = document.getElementById("overlay-glow");
+  glow.style.background = `radial-gradient(circle, ${cfg.color} 0%, transparent 70%)`;
+
+  // Lanzar confetti
+  lanzarConfetti(cfg.color);
+
+  // Mostrar overlay
+  const overlay = document.getElementById("anarquin-overlay");
+  overlay.classList.add("active");
+
+  // Auto-cerrar a los 2.8s
+  _celebracionTimeout = setTimeout(() => {
+    cerrarOverlayCelebracion();
+    if (callback) callback();
+  }, 2800);
+}
+
+function cerrarOverlayCelebracion() {
+  if (_celebracionTimeout) {
+    clearTimeout(_celebracionTimeout);
+    _celebracionTimeout = null;
+  }
+  const overlay = document.getElementById("anarquin-overlay");
+  overlay.classList.remove("active");
+  document.getElementById("confetti-container").innerHTML = "";
+}
+
+function lanzarConfetti(baseColor) {
+  const container = document.getElementById("confetti-container");
+  container.innerHTML = "";
+  const colors = [baseColor, "#ffffff", "#ffdd00", "#ff00ff", "#00e5ff", "#00ff41"];
+  for (let i = 0; i < 55; i++) {
+    const piece = document.createElement("div");
+    piece.className = "confetti-piece";
+    piece.style.left = Math.random() * 100 + "vw";
+    piece.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+    piece.style.width  = (6 + Math.random() * 8) + "px";
+    piece.style.height = (6 + Math.random() * 8) + "px";
+    piece.style.borderRadius = Math.random() > 0.5 ? "50%" : "2px";
+    const dur   = 1.8 + Math.random() * 1.8;
+    const delay = Math.random() * 0.6;
+    piece.style.animationDuration = dur + "s";
+    piece.style.animationDelay    = delay + "s";
+    container.appendChild(piece);
+  }
 }
