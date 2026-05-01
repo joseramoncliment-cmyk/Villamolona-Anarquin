@@ -481,10 +481,7 @@ function mostrarPreguntaUI(preguntaObj, esDorado, colorIndex) {
   });
 
   html += `</div>
-    <div id="trivial-feedback" class="feedback-text"></div>
-    <div style="text-align:center; margin-top:15px; display:none;" id="btn-trivial-next-cont">
-      <button class="btn-cyber" onclick="siguienteTirada()">Siguiente</button>
-    </div>`;
+    <div id="trivial-feedback" class="feedback-text"></div>`;
 
   cont.innerHTML = html;
   show("zona-activa");
@@ -502,7 +499,6 @@ function checkTrivialRespuesta(seleccion, correcta, explicacion, esDorado, color
 
   feedback.style.display = "block";
   feedback.innerHTML = `<strong>${seleccion === correcta ? "¡Acierto!" : "Zasca, Fallo."}</strong> ${explicacion}`;
-  document.getElementById("btn-trivial-next-cont").style.display = "block";
 
   if (seleccion === correcta) {
     if (esDorado) {
@@ -515,6 +511,9 @@ function checkTrivialRespuesta(seleccion, correcta, explicacion, esDorado, color
       // Al cerrar la celebración (auto o manual), avanzar automáticamente
       mostrarCelebracion(colorIndex, siguienteTirada);
     }
+  } else {
+    // Si falla, habilitamos el dado para que pueda tirar otra vez tras leer el zasca
+    document.getElementById("btn-lanzar").disabled = false;
   }
 }
 
