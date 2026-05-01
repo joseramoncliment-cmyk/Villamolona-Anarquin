@@ -512,7 +512,8 @@ function checkTrivialRespuesta(seleccion, correcta, explicacion, esDorado, color
     } else {
       anarquinesConseguidos[colorIndex] = true;
       document.getElementById(`slot-${colorIndex}`).classList.add("active");
-      mostrarCelebracion(colorIndex);
+      // Al cerrar la celebración (auto o manual), avanzar automáticamente
+      mostrarCelebracion(colorIndex, siguienteTirada);
     }
   }
 }
@@ -737,7 +738,8 @@ async function generarPDF(puntos, texto) {
 // ==========================================
 // OVERLAY CELEBRACIÓN ANARQUÍN
 // ==========================================
-let _celebracionTimeout = null;
+let _celebracionTimeout  = null;
+let _celebracionCallback = null;
 
 function mostrarCelebracion(key, callback) {
   const cfg = CELEBRACION_CONFIG[key];
@@ -781,10 +783,12 @@ function mostrarCelebracion(key, callback) {
   const overlay = document.getElementById("anarquin-overlay");
   overlay.classList.add("active");
 
+  // Guardar callback para ejecutarlo al cerrar (auto O manual)
+  _celebracionCallback = callback || null;
+
   // Auto-cerrar a los 2.8s
   _celebracionTimeout = setTimeout(() => {
     cerrarOverlayCelebracion();
-    if (callback) callback();
   }, 2800);
 }
 
@@ -807,6 +811,13 @@ function cerrarOverlayCelebracion() {
   glow.style.opacity     = "0";
 
   document.getElementById("confetti-container").innerHTML = "";
+
+  // Ejecutar callback siempre (tanto si cierra por timeout como por tap manual)
+  if (_celebracionCallback) {
+    const cb = _celebracionCallback;
+    _celebracionCallback = null;
+    cb();
+  }
 }
 
 function lanzarConfetti(baseColor) {
