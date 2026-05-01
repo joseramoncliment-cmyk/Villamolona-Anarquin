@@ -5,6 +5,13 @@
 // Las llamadas van a /api/gemini (proxy seguro en functions/api/gemini.js)
 // Para desarrollo local, si el proxy no responde, se carga preguntas.json como fallback.
 
+// Versión del banco de preguntas del servidor.
+// Cambiar este valor fuerza a todos los usuarios a descargar el banco nuevo,
+// invalidando cualquier caché local o preguntas personalizadas anteriores.
+const DB_VERSION = "2026-05-01-v1";
+const LS_KEY_PREGUNTAS = "anarquin_preguntas";
+const LS_KEY_VERSION  = "anarquin_db_version";
+
 
 // ==========================================
 // BANCO DE ARTÍCULOS POR CATEGORÍA
@@ -265,6 +272,9 @@ async function generarTableroCompleto() {
     }
 
     preguntasDB = todasLasPreguntas;
+    // Guardar en localStorage como preguntas personalizadas del usuario
+    localStorage.setItem(LS_KEY_PREGUNTAS, JSON.stringify(preguntasDB));
+    localStorage.setItem(LS_KEY_VERSION, DB_VERSION);
     console.log(`✅ Tablero generado con ${preguntasDB.length} preguntas. Semilla: ${seed}`);
     ocultarCargando();
     show("pantalla-inicio");
@@ -274,7 +284,7 @@ async function generarTableroCompleto() {
     actualizarCargando("💀 Gemini se ha ido de fiesta. Cargando preguntas de emergencia...");
 
     try {
-      const resp = await fetch("preguntas.json");
+      const resp = await fetch("preguntas.json?v=" + new Date().getTime(), { cache: "no-store" });
       preguntasDB = await resp.json();
     } catch (e) {
       preguntasDB = [];
@@ -290,11 +300,39 @@ async function generarTableroCompleto() {
 
 async function cargarBaseDeDatosLocal() {
   mostrarCargando("Cargando la sagrada enciclopedia de Anarquín...");
+
+  // Comprobar si hay preguntas en localStorage con la versión correcta
+  const versionGuardada = localStorage.getItem(LS_KEY_VERSION);
+  const preguntasGuardadas = localStorage.getItem(LS_KEY_PREGUNTAS);
+
+  if (versionGuardada === DB_VERSION && preguntasGuardadas) {
+    // Versión correcta → usar las preguntas guardadas (pueden ser del server o generadas por IA)
+    try {
+      preguntasDB = JSON.parse(preguntasGuardadas);
+      console.log(`✅ Preguntas cargadas desde caché local: ${preguntasDB.length} preguntas. (v${DB_VERSION})`);
+      ocultarCargando();
+      show("pantalla-inicio");
+      return;
+    } catch (e) {
+      console.warn("Caché corrupta, descargando del servidor...");
+    }
+  }
+
+  // Versión desactualizada o sin caché → borrar y descargar del servidor
+  if (versionGuardada && versionGuardada !== DB_VERSION) {
+    console.log(`🔄 Versión antigua detectada (${versionGuardada} → ${DB_VERSION}). Actualizando banco de preguntas...`);
+    localStorage.removeItem(LS_KEY_PREGUNTAS);
+    localStorage.removeItem(LS_KEY_VERSION);
+  }
+
   try {
     const resp = await fetch("preguntas.json?v=" + new Date().getTime(), { cache: "no-store" });
     if (!resp.ok) throw new Error("No se pudo cargar preguntas.json");
     preguntasDB = await resp.json();
-    console.log(`✅ Base de datos estática cargada: ${preguntasDB.length} preguntas.`);
+    // Guardar en localStorage con la versión actual
+    localStorage.setItem(LS_KEY_PREGUNTAS, JSON.stringify(preguntasDB));
+    localStorage.setItem(LS_KEY_VERSION, DB_VERSION);
+    console.log(`✅ Base de datos del servidor cargada: ${preguntasDB.length} preguntas. (v${DB_VERSION})`);
   } catch (e) {
     console.error("Error cargando base local:", e);
     preguntasDB = [];
