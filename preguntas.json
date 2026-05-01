@@ -2,196 +2,1041 @@
   {
     "id": 1,
     "tema": "Fucsia",
-    "titulo": "Derechos y Deberes (Tít. I CE)",
-    "pregunta": "A ver, lumbreras de los Derechos Fundamentales. Si te meten en el calabozo sin razón ninguna y no te dejan ni llamar al telepizza, ¿qué as bajo la manga te sacas (Art. 17 CE)?",
+    "titulo": "Igualdad ante la ley (Art. 14 CE)",
+    "pregunta": "Si un club de campo pijísimo te deniega la entrada por ser de Móstoles y llevar calcetines blancos con chanclas, ¿qué excusa constitucional NO cuela?",
     "opciones": [
-      "Llorar muy fuerte al comisario para que se apiade.",
-      "El procedimiento de 'Habeas Corpus' para que te pongan frente a un juez a la voz de ya.",
-      "Pedir el libro de reclamaciones y rellenarlo con boli de tinta borrable."
+      "Que tienen derecho de admisión y tu outfit les provoca daños morales irreparables.",
+      "Que los españoles son iguales ante la ley, sin que prevalezca discriminación por nacimiento o condición social.",
+      "Que debes presentar un recurso de amparo urgente ante el modisto del Tribunal Constitucional."
     ],
     "correcta": 1,
-    "explicacion": "Correcto. El 'Habeas Corpus' es para que no te tengan secuestrado a lo tonto y te presenten ante el juez de inmediato. A diferencia de tu ex, el juez sí te hace caso."
+    "explicacion": "El Art. 14 te blinda. Son todos iguales ante la ley. No pueden discriminarte por tu origen humilde, aunque lo de los calcetines merezca cárcel."
   },
   {
     "id": 2,
     "tema": "Fucsia",
-    "titulo": "Derechos y Deberes (Tít. I CE)",
-    "pregunta": "¿Qué pasa si mañana el Gobierno dice que se acabó eso de reunirse en la calle (Art. 21 CE)?",
+    "titulo": "Derecho a la vida (Art. 15 CE)",
+    "pregunta": "El artículo 15 dice que todos tienen derecho a la vida. Pero en caso de que te pille Hacienda o tu suegra, ¿se contempla la pena de muerte?",
     "opciones": [
-      "Que no pueden, el derecho de reunión pacífica y sin armas no necesita autorización previa.",
-      "Que tienes que mandar un burofax al Rey pidiendo permiso por favor.",
-      "Que sólo puedes reunirte si es para tomar unas cañas, nada de protestar."
+      "Queda abolida, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra.",
+      "Sí, pero sólo si dejas sin pagar el IRPF más de tres trimestres seguidos.",
+      "No, pero te pueden someter a torturas o penas inhumanas y degradantes de vez en cuando."
     ],
     "correcta": 0,
-    "explicacion": "Bingo. Te puedes reunir pacíficamente sin pedir permiso a nadie. Ojo, si vas a cortar la Gran Vía sí hay que avisar, no me seas cafre."
+    "explicacion": "Abolida la pena de muerte, colega. Salvo que a los militares en tiempos de guerra se les ocurra otra cosa. Por suerte Hacienda sólo te quita el dinero, no la cabeza."
   },
   {
     "id": 3,
     "tema": "Fucsia",
-    "titulo": "Derechos y Deberes (Tít. I CE)",
-    "pregunta": "¿Puede el Estado obligarte a decir si eres del Atleti, de Vox, o si crees en el Monstruo del Espagueti Volador (Art. 16 CE)?",
+    "titulo": "Libertad ideológica (Art. 16 CE)",
+    "pregunta": "¿Puede el Estado obligarte a rellenar un formulario confesando si rezas al Monstruo del Espagueti Volador?",
     "opciones": [
-      "Sí, para hacer estadísticas del INE.",
+      "Sí, siempre que el CIS necesite cuadrar las estadísticas de los domingos.",
       "Nadie podrá ser obligado a declarar sobre su ideología, religión o creencias.",
-      "Sí, pero sólo si te invitan a un café primero."
+      "Sólo si quieres casarte por la Iglesia, en cuyo caso te revisan hasta el historial de Netflix."
     ],
     "correcta": 1,
-    "explicacion": "Exacto. Nadie te puede obligar a confesar tus oscuros secretos ideológicos o religiosos. ¡Tu mente es tu fortaleza!"
+    "explicacion": "Tu mente es un búnker. El Art. 16 dice clarísimamente que nadie te obliga a declarar tus creencias. Puedes adorar al espagueti en paz."
   },
   {
     "id": 4,
-    "tema": "Azul Eléctrico",
-    "titulo": "La Corona y Cortes (Tít. II y III CE)",
-    "pregunta": "Vale, te sabes la línea de sucesión a la Corona mejor que el árbol genealógico de los Targaryen. ¿A quién le toca el trono si el Príncipe de Asturias la diña y no tiene descendencia (Art. 57 CE)?",
+    "tema": "Fucsia",
+    "titulo": "Libertad y Habeas Corpus (Art. 17 CE)",
+    "pregunta": "Te han metido al calabozo porque te confundieron con 'El Dioni'. ¿Cuál es el límite absoluto antes de que te suelten o te pasen al juez?",
     "opciones": [
-      "Al pariente más cercano que haya aguantado en la familia sin que le deshereden.",
-      "A los hermanos y hermanas, con preferencia de las líneas anteriores sobre las posteriores.",
-      "A Felipe de Marichalar, para que reine el caos absoluto."
+      "72 horas, ni un minuto más. Tras eso, libertad o a disposición judicial.",
+      "Depende de si caes bien al comisario y le traes cruasanes para el desayuno.",
+      "24 horas, prorrogables a 48 si el juez está de puente en la playa."
     ],
-    "correcta": 1,
-    "explicacion": "Chupao. Primero descendientes, luego hermanos... la línea regular para que no haya guerras civiles de nuevo, que ya tuvimos bastantes."
+    "correcta": 0,
+    "explicacion": "72 horazas es el límite máximo estricto para la detención preventiva. Si se pasan, pide el Habeas Corpus echando leches."
   },
   {
     "id": 5,
-    "tema": "Azul Eléctrico",
-    "titulo": "La Corona y Cortes (Tít. II y III CE)",
-    "pregunta": "¿Quién se dedica a darle forma a los Presupuestos Generales del Estado aparte de cobrar unas dietas majas (Art. 134 CE)?",
+    "tema": "Fucsia",
+    "titulo": "Inviolabilidad del domicilio (Art. 18 CE)",
+    "pregunta": "Estás en pijama, comiendo doritos. Llama la policía a la puerta sin orden judicial ni flagrante delito. ¿Qué haces?",
     "opciones": [
-      "Las cuentas las lleva el Ministro de Hacienda en una libreta del chino.",
-      "El Gobierno los elabora y las Cortes Generales los examinan, enmiendan y aprueban.",
-      "El Congreso aprueba y el Senado asiente con la cabeza para no montar el pollo."
+      "Les abres y les invitas a unos doritos, por cortesía ciudadana.",
+      "Gritas '¡El domicilio es inviolable!' y sigues masticando; no pueden entrar sin resolución judicial o tu permiso.",
+      "Corres a tirar todo por el retrete por si acaso vienen buscando pelis piratas."
     ],
     "correcta": 1,
-    "explicacion": "El Gobierno saca la calculadora, pero son las Cortes (Congreso + Senado) quienes dicen si el sablazo fiscal tiene sentido o no."
+    "explicacion": "Art. 18.2: El domicilio es sagrado. Sin tu permiso, o hay orden del juez, o están presenciando un delito en directo, o se quedan en el felpudo."
   },
   {
     "id": 6,
-    "tema": "Azul Eléctrico",
-    "titulo": "La Corona y Cortes (Tít. II y III CE)",
-    "pregunta": "¿Cuántos diputados caben en el Congreso como máximo según la Constitución (Art. 68 CE)?",
+    "tema": "Fucsia",
+    "titulo": "Libertad de circulación (Art. 19 CE)",
+    "pregunta": "¿Te pueden prohibir salir de España por tener opiniones políticas contrarias al gobierno de turno?",
     "opciones": [
-      "Mínimo 300 y máximo 400. Todo un corral.",
-      "Los que entren hasta que deje de haber butacas libres.",
-      "Exactamente 350 diputados, ni uno más, ni uno menos."
+      "Sí, te retiran el pasaporte y te mandan a un retiro espiritual obligatorio en Teruel.",
+      "Los españoles tienen derecho a entrar y salir libremente; no puede ser limitado por motivos políticos o ideológicos.",
+      "Sólo te prohíben salir si además de opiniones raras, debes dinero a la comunidad de vecinos."
     ],
-    "correcta": 0,
-    "explicacion": "Ojo ahí: La Ley Orgánica del Régimen Electoral General fija 350, ¡pero la Constitución deja un margen de entre 300 y 400! Has estado avispado."
+    "correcta": 1,
+    "explicacion": "Tu pasaporte es tuyo. La libertad de movimiento (entrar y salir) no se limita por pensar diferente. ¡A viajar se ha dicho!"
   },
   {
     "id": 7,
-    "tema": "Verde Ácido",
-    "titulo": "Organización Territorial (Tít. VIII CE)",
-    "pregunta": "Si un Presidente Autónomico se pone rebelde y pasa olímpicamente de las leyes, ¿qué mecanismo salvaje se le puede aplicar (Art. 155 CE)?",
+    "tema": "Fucsia",
+    "titulo": "Derecho de reunión (Art. 21 CE)",
+    "pregunta": "Vas a montar una manifestación en plena Puerta del Sol para quejarte de que han subido los doritos. ¿Qué necesitas?",
     "opciones": [
-      "Un castigo ejemplar en la plaza del pueblo.",
-      "El famoso 155: el Gobierno, con mayoría absoluta del Senado, le obliga a cumplir por las malas.",
-      "Se le retira el sueldo y las dietas en restaurantes de lujo."
+      "Pedir autorización previa al Ministerio del Interior y firmar con sangre.",
+      "No necesitas permiso previo. Pero para manifestarte en lugares de tránsito público, sí hay que dar comunicación previa a la autoridad.",
+      "Sólo necesitas ir con una guitarra y buen rollo, la ley no se mete en asambleas pop-up."
     ],
     "correcta": 1,
-    "explicacion": "Efectivamente. Se activa el Artículo 155 y se acabó el recreo. Se necesita mayoría absoluta del Senado para darle al botón nuclear."
+    "explicacion": "El derecho de reunión no requiere autorización, PERO si cortas el tráfico, avisa a los que mandan para que no se asusten."
   },
   {
     "id": 8,
-    "tema": "Verde Ácido",
-    "titulo": "Organización Territorial (Tít. VIII CE)",
-    "pregunta": "En caso de que el Estado y una Comunidad Autónoma se peleen porque ambas dicen tener competencia sobre algo (Art. 149 CE), ¿qué pasa?",
+    "tema": "Fucsia",
+    "titulo": "Derecho de asociación (Art. 22 CE)",
+    "pregunta": "¿Qué tipo de asociaciones te puede chapar el Estado en un visto y no visto por inconstitucionales?",
     "opciones": [
-      "Se resuelve en un combate singular con espadas.",
-      "El derecho estatal prevalece en caso de conflicto sobre el de las CCAA en todo lo que no esté atribuido en exclusiva a éstas.",
-      "La Comunidad Autónoma siempre gana si tiene más banderas en el balcón."
+      "Las secretas y las de carácter paramilitar. Esas dan miedito y están prohibidas.",
+      "Cualquier club de fans que haga demasiado ruido los sábados por la tarde.",
+      "Las asociaciones que tengan deudas con Hacienda; esas son automáticamente terroristas."
     ],
-    "correcta": 1,
-    "explicacion": "Regla de prevalencia del Estado. Básicamente: si dudo quién manda aquí (y no es exclusivo tullo), mando yo que soy el Estado Español."
+    "correcta": 0,
+    "explicacion": "Art. 22.5 prohíbe explícitamente las secretas y las paramilitares. Si quieres jugar a los espías, que sea en el Call of Duty."
   },
   {
     "id": 9,
-    "tema": "Verde Ácido",
-    "titulo": "Organización Territorial (Tít. VIII CE)",
-    "pregunta": "¿Cómo se llama en la CE a esa ley especialísima que es la norma institucional suprema de una CCAA?",
+    "tema": "Azul Eléctrico",
+    "titulo": "El Rey (Art. 56 CE)",
+    "pregunta": "El Rey hace algo que no debe (digamos, cruzar en rojo). ¿A quién le cae el marrón penalmente hablando?",
     "opciones": [
-      "La Bula Papal Autonómica.",
-      "Estatuto de Autonomía.",
-      "La Carta Magna Regional."
+      "A él mismo, que es ciudadano como todos y si la lía la paga.",
+      "A la persona que refrende sus actos. La persona del Rey es inviolable y no está sujeta a responsabilidad.",
+      "A la Princesa Leonor, que hereda las culpas y las multas de tráfico."
     ],
     "correcta": 1,
-    "explicacion": "Yes! El Estatuto de Autonomía, la joya de la corona normativa de cualquier comunidad."
+    "explicacion": "El Rey es inviolable (Art. 56.3). Todo lo que firma lleva el 'refrendo' de alguien (Presidente o Ministros), que son los que se comen el marrón."
   },
   {
     "id": 10,
-    "tema": "Naranja",
-    "titulo": "El Papeleo (Tít. IV Ley 39)",
-    "pregunta": "¿Cuánto tiempo tiene la Administración como norma general para resolver tus movidas y notificártelo si no se dice nada específico (Art. 21 LPAC)?",
+    "tema": "Azul Eléctrico",
+    "titulo": "Sucesión a la Corona (Art. 57 CE)",
+    "pregunta": "Nace una infanta. Dos años después nace un infante (varón). ¿A quién le toca el trono si aplicamos la Constitución tal cual?",
     "opciones": [
-      "Tres meses, y da las gracias de que presten atención a tu miseria.",
-      "Seis meses, porque van despacio, al ritmo de Windows 95.",
-      "Un mes, que para eso cobran de nuestros impuestos."
+      "Se lo juegan a cara o cruz cuando cumplan 18.",
+      "A la infanta, porque nació primero y el que avisa no es traidor.",
+      "Al infante, porque en el mismo grado, prefiere el varón a la mujer."
     ],
-    "correcta": 0,
-    "explicacion": "Exacto! La regla residual marca el tope en 3 meses. Pasado ese tiempo ya entra en juego el mágico mundo del silencio administrativo."
+    "correcta": 2,
+    "explicacion": "Sí, lo de 'preferencia del varón sobre la mujer' sigue ahí (Art. 57.1). Una reliquia machista que todavía no han querido toquetear en la Constitución."
   },
   {
     "id": 11,
-    "tema": "Naranja",
-    "titulo": "El Papeleo (Tít. IV Ley 39)",
-    "pregunta": "Te notifican en papel (a la antigua). Vas a tu buzón pero no estás en casa. ¿Qué tiene que hacer el cartero o notificador (Art. 42 LPAC)?",
+    "tema": "Azul Eléctrico",
+    "titulo": "Las Cortes Generales (Art. 66 CE)",
+    "pregunta": "Aparte de protagonizar memes en redes sociales, ¿qué poderes principales tienen las Cortes Generales?",
     "opciones": [
-      "Meter el papelón debajo del felpudo y salir pitando.",
-      "Hacer un segundo intento dentro de los 3 días siguientes, con diferencia de al menos 3 horas entre intentos.",
-      "Llamarte al móvil pidiéndote disculpas y dejártelo en el bar de abajo."
+      "El legislativo, aprobar los Presupuestos, controlar al Gobierno y tener cafetería barata.",
+      "Gobernar el país directamente cuando el Presidente está de vacaciones.",
+      "Votar los expulsados semanales de la casa del Gran Hermano Constitucional."
     ],
-    "correcta": 1,
-    "explicacion": "Vuelven a la carga en los siguientes 3 días. Y ojo: si la primera fue por la mañana, la segunda por la tarde, y viceversa."
+    "correcta": 0,
+    "explicacion": "Potestad legislativa, presupuestos y control de la acción del Gobierno. Y sí, la cafetería es famosa por sus precios."
   },
   {
     "id": 12,
-    "tema": "Naranja",
-    "titulo": "El Papeleo (Tít. IV Ley 39)",
-    "pregunta": "Si vas a presentar un escrito y resulta que es domingo por la tarde, ¿dónde demonios lo echas (Art. 16 LPAC)?",
+    "tema": "Azul Eléctrico",
+    "titulo": "El Congreso (Art. 68 CE)",
+    "pregunta": "En el Congreso hay 350 diputados, pero según la Constitución, la horquilla permite...",
     "opciones": [
-      "En el buzón de la calle, que ya lo recogerán.",
-      "En el registro electrónico de la Administración u Organismo al que te dirijas.",
-      "No puedes, espérate al lunes a las 9 como la plebe."
+      "Entre 200 y 500, según haya más o menos presupuesto para dietas.",
+      "Un mínimo de 300 y un máximo de 400 diputados, elegidos por sufragio universal.",
+      "350 exactos y obligatorios. El que falte pierde su asiento."
     ],
     "correcta": 1,
-    "explicacion": "El registro electrónico nunca duerme, amiguito. 24 horas al día, 365 días al año disponible para recibir tus lloros burocráticos."
+    "explicacion": "La CE fija un mínimo de 300 y máximo de 400. La LOREG es la que lo clavó en 350. ¡Detalle de examen para pillar a pringaos!"
   },
   {
     "id": 13,
-    "tema": "Rojo",
-    "titulo": "Silencio y Recursos (Tít. V Ley 39)",
-    "pregunta": "A ver, lumbreras. Te han mandado una resolución que te ha dejado la cara torcida. ¿Cuánto tiempo tienes para llorarle al superior (Recurso de Alzada) alzada expreso?",
+    "tema": "Azul Eléctrico",
+    "titulo": "Leyes Orgánicas (Art. 81 CE)",
+    "pregunta": "Quieres aprobar una Ley Orgánica (ej. Derechos Fundamentales). ¿Qué clase de malabarismo parlamentario necesitas?",
     "opciones": [
-      "Un mes (y reza para que lo lean).",
-      "Tres meses (ni de coña, eso es para el de reposición si es presunto).",
-      "Diez días (no me seas ansias, eso son alegaciones)."
+      "Mayoría simple del Congreso los martes y jueves.",
+      "Que el Rey la firme con pluma de ave fénix en directo.",
+      "Mayoría absoluta del Congreso, en una votación final sobre el conjunto del proyecto."
     ],
-    "correcta": 0,
-    "explicacion": "¡Boom! Tienes UN MES para interponer el recurso de alzada si el acto fue expreso. El tiempo vuela, no te duermas en los laureles administrativos."
+    "correcta": 2,
+    "explicacion": "Las Leyes Orgánicas son cosa seria: requieren que la mitad más uno de *todos* los diputados (176) digan 'Sí, quiero' al texto final."
   },
   {
     "id": 14,
-    "tema": "Rojo",
-    "titulo": "Silencio y Recursos (Tít. V Ley 39)",
-    "pregunta": "¿Qué ocurre si metes un recurso potestativo de reposición contra un acto y la Administración no te contesta en el plazo (Art. 124 LPAC)?",
+    "tema": "Azul Eléctrico",
+    "titulo": "Decreto-Ley (Art. 86 CE)",
+    "pregunta": "El Gobierno saca un Decreto-Ley por 'extraordinaria y urgente necesidad'. ¿Puede usarlo para modificar las instituciones básicas del Estado?",
     "opciones": [
-      "Te jodes y bailas, el silencio es positivo siempre.",
-      "Silencio negativo: se entiende desestimado para que puedas irte al tribunal contencioso-administrativo a pringar pasta.",
-      "Ganas por goleada y te tienen que dar lo que pedías."
+      "No, no pueden afectar al ordenamiento de instituciones básicas, derechos, deberes ni al régimen de las CCAA.",
+      "Sí, si hay mucha prisa pueden cambiar hasta la bandera nacional.",
+      "Solo si el Presidente jura por Snoopy que es por nuestro bien."
     ],
-    "correcta": 1,
-    "explicacion": "Masoquismo jurídico nivel Experto: el silencio en recursos (casi siempre) es negativo, es decir, 'Calladito te digo que no'. Te abren la vía judicial."
+    "correcta": 0,
+    "explicacion": "Los Decretos-Leyes son el comodín de la prisa, pero tienen líneas rojas muy gordas: nada de tocar instituciones básicas, derechos del Título I, ni estatutos."
   },
   {
     "id": 15,
-    "tema": "Rojo",
-    "titulo": "Silencio y Recursos (Tít. V Ley 39)",
-    "pregunta": "Un acto pone 'fin a la vía administrativa'. ¿Qué recurso administrativo te queda por interponer OBLIGATORIAMENTE para seguir quejándote?",
+    "tema": "Azul Eléctrico",
+    "titulo": "Investidura (Art. 99 CE)",
+    "pregunta": "El candidato a Presidente no saca mayoría absoluta en la primera votación. ¿Cuánto tiempo se tiene que morder las uñas para la segunda?",
     "opciones": [
-      "El potestativo de reposición (que como su nombre indica, es 'potestativo', es decir, opcional).",
-      "El de alzada, que vale para todo.",
-      "Ninguno obligatoriamente. Puedes irte del tirón a la vía contencioso-administrativa."
+      "48 horas. Y en esta segunda vuelta le vale con sacar mayoría simple (más síes que noes).",
+      "Una semana entera, para que le dé tiempo a comprar votos con jamones ibéricos.",
+      "24 horas, y si no saca absoluta de nuevo, a su casa a llorar."
+    ],
+    "correcta": 0,
+    "explicacion": "Si a la primera no sale absoluta, toca esperar 48h. A la segunda, con tener más amigos (Sí) que enemigos (No) le vale. Mayoría simple al rescate."
+  },
+  {
+    "id": 16,
+    "tema": "Azul Eléctrico",
+    "titulo": "Presupuestos (Art. 134 CE)",
+    "pregunta": "¿Quién es el encargado oficial de montar la hoja de Excel gigante que son los Presupuestos Generales del Estado?",
+    "opciones": [
+      "El Congreso de los Diputados, que para eso representan al pueblo.",
+      "El Tribunal de Cuentas, que son los únicos que saben sumar.",
+      "El Gobierno los elabora, y las Cortes Generales los examinan, enmiendan y aprueban."
     ],
     "correcta": 2,
-    "explicacion": "Exacto. Si agota la vía administrativa, se acabó el peloteo con ellos. Puedes hacer la de reposición si quieres perder el tiempo, o irte directo a los tribunales."
+    "explicacion": "El monopolio de cuadrar (o descuadrar) las cuentas iniciales lo tiene el Gobierno. Luego ya se lo pasa a las Cortes para que lo destrocen con enmiendas."
+  },
+  {
+    "id": 17,
+    "tema": "Verde Ácido",
+    "titulo": "Organización Territorial (Art. 137 CE)",
+    "pregunta": "¿Cómo se divide el mapa de España según la Constitución para que todos tengan su cuota de poder?",
+    "opciones": [
+      "En feudos, marquesados y condados administrados por influencers.",
+      "En municipios, provincias y en las Comunidades Autónomas que se constituyan. Todas con autonomía para sus intereses.",
+      "En norte, sur, este y el páramo central."
+    ],
+    "correcta": 1,
+    "explicacion": "Municipios, provincias y CCAA. Y todos se agarran a su trozo de autonomía como si no hubiera un mañana."
+  },
+  {
+    "id": 18,
+    "tema": "Verde Ácido",
+    "titulo": "Administración Local (Art. 140 CE)",
+    "pregunta": "¿Quién tiene garantizada la autonomía y personalidad jurídica plena desde el escalón más bajo?",
+    "opciones": [
+      "Los Municipios. Su gobierno y administración corresponde a sus Ayuntamientos (Alcaldes y Concejales).",
+      "Las diputaciones provinciales, que mandan en los pueblos pequeños como caciques modernos.",
+      "Las asociaciones de vecinos con más de 500 firmas."
+    ],
+    "correcta": 0,
+    "explicacion": "El Municipio es la base del pastel territorial. Tienen autonomía garantizada y tu alcalde te manda en todo lo local."
+  },
+  {
+    "id": 19,
+    "tema": "Verde Ácido",
+    "titulo": "Estatutos de Autonomía (Art. 147 CE)",
+    "pregunta": "El Estatuto de Autonomía es la norma suprema de una CCAA. ¿Qué tiene que contener SÍ o SÍ?",
+    "opciones": [
+      "Una receta del plato típico local para fomentar el turismo.",
+      "Denominación, delimitación territorial, instituciones y las competencias asumidas.",
+      "La lista de festivos y cuántos días libres tocan por carnaval."
+    ],
+    "correcta": 1,
+    "explicacion": "Nombre, fronteras, quién manda ahí y qué parcelitas de poder se han pillado. El ABC de montar tu propia CCAA."
+  },
+  {
+    "id": 20,
+    "tema": "Verde Ácido",
+    "titulo": "Competencias (Art. 149 CE)",
+    "pregunta": "Si a tu Comunidad Autónoma se le ocurre montar su propio ejército o acuñar sus propias 'monedas regionales', ¿quién le frena los pies?",
+    "opciones": [
+      "La Guardia Civil, entrando a caballo en el Parlamento Autonómico.",
+      "El Estado. Tiene competencia EXCLUSIVA sobre nacionalidad, inmigración, defensa, moneda y aduanas.",
+      "El Tribunal de la Haya, por intento de golpe de estado financiero."
+    ],
+    "correcta": 1,
+    "explicacion": "Art. 149.1 enumera lo que es 'sagrado' para el Estado Central. Defensa y Moneda (entre otras muchas) no se tocan ni de broma."
+  },
+  {
+    "id": 21,
+    "tema": "Verde Ácido",
+    "titulo": "Ejecución Forzosa Autonómica (Art. 155 CE)",
+    "pregunta": "Si un Presidente autonómico se pone en rebeldía pura y dura incumpliendo la Constitución, ¿qué as de la manga saca el Gobierno?",
+    "opciones": [
+      "Cortarles la luz y el wifi hasta que se rindan.",
+      "El 155: con mayoría absoluta del Senado, adoptar medidas para obligar a la CCAA al cumplimiento forzoso.",
+      "Retar al Presidente autonómico a un duelo de rap en el Senado."
+    ],
+    "correcta": 1,
+    "explicacion": "El temido 155 es el 'te vas a enterar' constitucional. Obliga al cumplimiento forzoso, previo aviso y con permiso del Senado."
+  },
+  {
+    "id": 22,
+    "tema": "Verde Ácido",
+    "titulo": "Solidaridad y Provincias (Art. 138 y 141 CE)",
+    "pregunta": "La provincia, además de para dar el tiempo en las noticias, ¿para qué sirve constitucionalmente?",
+    "opciones": [
+      "Entidad local con personalidad jurídica propia y circunscripción electoral.",
+      "Solo para cobrar peajes y tener diputaciones provinciales sin oficio ni beneficio.",
+      "Es una invención franquista que la Constitución abolió pero seguimos usando por costumbre."
+    ],
+    "correcta": 0,
+    "explicacion": "La provincia importa. Es entidad local propia, gestionada por la Diputación, y es la zona clave para repartir diputados y senadores."
+  },
+  {
+    "id": 23,
+    "tema": "Verde Ácido",
+    "titulo": "Financiación Autonómica (Art. 156 CE)",
+    "pregunta": "¿De qué viven las CCAA para pagar la sanidad, educación y los coches oficiales?",
+    "opciones": [
+      "De lo que le roban a Madrid y Cataluña, según Twitter.",
+      "Gozan de autonomía financiera, con impuestos cedidos, propios y transferencias del Estado.",
+      "De vender bonos de lotería autonómica en navidad a los funcionarios."
+    ],
+    "correcta": 1,
+    "explicacion": "Tienen autonomía financiera, pilar básico para no depender de la paga dominical del Gobierno Central (aunque en el fondo siempre hay peleas por la financiación)."
+  },
+  {
+    "id": 24,
+    "tema": "Verde Ácido",
+    "titulo": "Conflictos Competenciales (Art. 149.3 CE)",
+    "pregunta": "Si hay un lío porque una ley no está ni en las competencias del Estado ni en las de la CCAA. ¿De quién es?",
+    "opciones": [
+      "Del que la reclame primero (Regla del 'me lo pido').",
+      "La competencia corresponde al Estado en lo no asumido por los Estatutos de Autonomía.",
+      "Del Defensor del Pueblo, que asume los descartes."
+    ],
+    "correcta": 1,
+    "explicacion": "El Estado es la red de seguridad (cláusula residual). Lo que tú no pongas en tu Estatuto, se lo queda Madrid automáticamente."
+  },
+  {
+    "id": 25,
+    "tema": "Naranja",
+    "titulo": "Relación Electrónica (Art. 14 LPAC)",
+    "pregunta": "Si tienes una empresita y quieres mandar un papel en sobre marrón al Ayuntamiento. ¿Puedes?",
+    "opciones": [
+      "Sí, si llevas el sobre con sellos bonitos y haces una reverencia.",
+      "No. Las personas jurídicas están OBLIGADAS a relacionarse electrónicamente con la Administración.",
+      "Sí, pero te cobran una 'tasa de antigüedad' de 50 pavos."
+    ],
+    "correcta": 1,
+    "explicacion": "Si eres persona jurídica, entidad sin personalidad, profesional colegiado o empleado público... el papel se acabó para ti. A tragar con el certificado digital."
+  },
+  {
+    "id": 26,
+    "tema": "Naranja",
+    "titulo": "Plazo de Resolución (Art. 21 LPAC)",
+    "pregunta": "Has echado una instancia. El funcionario de turno dice que ya te avisarán. Si la ley concreta de ese trámite no dice nada, ¿cuándo prescribe su paciencia (y su plazo legal)?",
+    "opciones": [
+      "Tienen 6 meses, que la administración va a su ritmo zen.",
+      "Un máximo de 3 meses. Es la regla subsidiaria universal para cuando no hay plazo fijado.",
+      "No hay plazo, depende de si el funcionario tiene un buen día o no."
+    ],
+    "correcta": 1,
+    "explicacion": "Regla de oro: si la norma no dice cuánto tardan, el tope son 3 mesecitos para resolver y notificar."
+  },
+  {
+    "id": 27,
+    "tema": "Naranja",
+    "titulo": "Aportación de Documentos (Art. 28 LPAC)",
+    "pregunta": "Vas a pedir una beca y el Ministerio te pide copia de tu DNI y tu padrón. ¿Qué le dices como buen empollón de la LPAC?",
+    "opciones": [
+      "Que no tienen derecho y que no aportas documentos que ya estén en poder de las AAPP (salvo que te opongas).",
+      "Vas corriendo al locutorio a hacer fotocopias compulsadas a 2 euros la hoja.",
+      "Le mandas un selfie de fiesta, que vale lo mismo para identificar."
+    ],
+    "correcta": 0,
+    "explicacion": "No tienes obligación de presentar documentos que ya tiene la Administración o que han elaborado ellos. ¡Que se los busquen entre ellos!"
+  },
+  {
+    "id": 28,
+    "tema": "Naranja",
+    "titulo": "Práctica de Notificaciones (Art. 42 LPAC)",
+    "pregunta": "Te van a notificar en papel. El cartero llega y no hay nadie en casa. ¿Puede dejarlo en el buzón y darlo por notificado?",
+    "opciones": [
+      "Sí, si le pone una pegatina de 'Aviso Importante' en el buzón.",
+      "No. Tiene que volver dentro de los 3 días siguientes, con diferencia de al menos 3 horas de la visita anterior.",
+      "Se lo deja a la vecina cotilla del 4º que te lo dará seguro."
+    ],
+    "correcta": 1,
+    "explicacion": "La notificación de papel es quisquillosa. Tienen que hacer un segundo intento, otro día distinto o si es el mismo, separando mañana y tarde (3 horas mínimo)."
+  },
+  {
+    "id": 29,
+    "tema": "Naranja",
+    "titulo": "Notificación Electrónica (Art. 43 LPAC)",
+    "pregunta": "Te han dejado un aviso en tu Carpeta Ciudadana. Tú pasas de abrirlo porque lo que no se ve, no existe. ¿Qué pasa?",
+    "opciones": [
+      "Transcurridos 10 días naturales sin acceder, se da por notificado (rechazo) y el trámite sigue.",
+      "Que cuando entres dentro de 5 años te caduca todo pero no pasa nada.",
+      "Que mandan a la policía cibernética a embargarte el PC."
+    ],
+    "correcta": 0,
+    "explicacion": "Ojo con ignorar las notificaciones electrónicas. Tienes 10 días naturales. Si no entras, se considera rechazada y se dan por notificados."
+  },
+  {
+    "id": 30,
+    "tema": "Naranja",
+    "titulo": "Subsanación (Art. 68 LPAC)",
+    "pregunta": "Has enviado la solicitud pero se te ha olvidado firmar (pringao). ¿Qué hace la Administración?",
+    "opciones": [
+      "A la papelera directamente por torpe.",
+      "Te requieren para que subsanes en un plazo de 10 días, o te dan por desistido.",
+      "Te llaman por teléfono y te dicen que ya lo firman ellos por ti."
+    ],
+    "correcta": 1,
+    "explicacion": "Siempre te dan una segunda oportunidad. Plazo de 10 días (hábiles) para arreglar tus chapuzas. Si no lo haces, ciao."
+  },
+  {
+    "id": 31,
+    "tema": "Naranja",
+    "titulo": "Trámite de Audiencia (Art. 82 LPAC)",
+    "pregunta": "Antes de redactar la propuesta de resolución, te tienen que dar la oportunidad de abrir la boca y ver el expediente. ¿Cómo se llama eso?",
+    "opciones": [
+      "Interrogatorio de tercer grado.",
+      "Derecho a la última palabra administrativa.",
+      "Trámite de audiencia, por un plazo entre 10 y 15 días."
+    ],
+    "correcta": 2,
+    "explicacion": "Es tu momento para ver el expediente completo, llorar, alegar y aportar documentos antes de que te sentencien. (Entre 10 y 15 días)."
+  },
+  {
+    "id": 32,
+    "tema": "Naranja",
+    "titulo": "Ejecución Forzosa (Art. 95 LPAC)",
+    "pregunta": "Te han ordenado tirar ese muro ilegal que hiciste en la finca y pasas de todo. ¿Qué te puede hacer la Administración?",
+    "opciones": [
+      "Apremio sobre el patrimonio, multas coercitivas, ejecución subsidiaria o compulsión sobre las personas.",
+      "Escribirte cartas amenazantes en rojo hasta que te sientas mal y lo tires.",
+      "Nada, porque la Administración no tiene poder físico sobre ti."
+    ],
+    "correcta": 0,
+    "explicacion": "Pueden meterte mano de mil formas: embargarte (apremio), freírte a multas diarias, mandarte una excavadora y cobrarte la factura (subsidiaria) o hasta usar la fuerza."
+  },
+  {
+    "id": 33,
+    "tema": "Rojo",
+    "titulo": "Nulidad Absoluta (Art. 47 LPAC)",
+    "pregunta": "Un funcionario te concede una licencia para cazar dragones en el Retiro basándose en una ley derogada. Ese acto es...",
+    "opciones": [
+      "Anulable, si nadie se queja en un mes se queda firme y a cazar dragones.",
+      "Nulo de pleno derecho (infracción penal, imposible, dictado por órgano incompetente...).",
+      "Totalmente válido si el funcionario tiene más de 10 trienios acumulados."
+    ],
+    "correcta": 1,
+    "explicacion": "Nulo de pleno derecho. Los actos imposibles, sin competencia, o constituyentes de infracción penal nacen muertos. Radiactividad jurídica."
+  },
+  {
+    "id": 34,
+    "tema": "Rojo",
+    "titulo": "Recurso de Alzada (Art. 121 y 122 LPAC)",
+    "pregunta": "Quieres recurrir un acto que NO pone fin a la vía administrativa. ¿Qué recurso toca y cuál es el plazo si te notificaron en papel?",
+    "opciones": [
+      "Recurso de Reposición, 3 meses.",
+      "Recurso Extraordinario de Revisión, 4 años.",
+      "Recurso de Alzada, 1 mes si el acto es expreso."
+    ],
+    "correcta": 2,
+    "explicacion": "Si no pone fin a la vía (te castiga el subordinado), te vas 'pa arriba' con la Alzada en plazo de 1 mes."
+  },
+  {
+    "id": 35,
+    "tema": "Rojo",
+    "titulo": "Recurso de Reposición (Art. 123 LPAC)",
+    "pregunta": "Te ha sancionado el Ministro (pone fin a la vía administrativa). Estás aburrido y quieres llorarle A ÉL MISMO antes de ir al juzgado. ¿Qué interpones?",
+    "opciones": [
+      "Un recurso de queja monumental por registro electrónico.",
+      "El potestativo de reposición ante el mismo órgano que dictó el acto.",
+      "Alzada ante el Rey, que es el superior del Ministro."
+    ],
+    "correcta": 1,
+    "explicacion": "El de Reposición se interpone ante el mismísimo señor que te fastidió. Por eso es potestativo, porque rara vez te van a dar la razón corrigiéndose a sí mismos."
+  },
+  {
+    "id": 36,
+    "tema": "Rojo",
+    "titulo": "Plazo Recurso Reposición (Art. 124 LPAC)",
+    "pregunta": "Pones un recurso de reposición. Pasa el tiempo y silencio sepulcral. ¿Cuándo se entiende desestimado por silencio administrativo para poder irte al contencioso?",
+    "opciones": [
+      "A los 6 meses, hay que darles tiempo a que se lean la ley.",
+      "Al mes desde su interposición. Y ya te puedes ir al juzgado a gastar dinero en abogados.",
+      "A los 10 días, que las cosas de palacio no van tan despacio."
+    ],
+    "correcta": 1,
+    "explicacion": "Un mesecito. Si al mes no te han contestado la reposición, se entiende que te están ignorando activamente (silencio negativo)."
+  },
+  {
+    "id": 37,
+    "tema": "Rojo",
+    "titulo": "Revisión de Oficio (Art. 106 LPAC)",
+    "pregunta": "La Administración se da cuenta de que dictó un acto NULO DE PLENO DERECHO hace 15 años. ¿Qué puede hacer?",
+    "opciones": [
+      "Llorar, porque a los 4 años caducan todos sus poderes.",
+      "Revisarlo de oficio en cualquier momento (no prescribe), previo dictamen del Consejo de Estado.",
+      "Esconder el expediente en el sótano y esperar a que te mueras."
+    ],
+    "correcta": 1,
+    "explicacion": "La nulidad absoluta no prescribe. La Administración puede anular su propia cagada monumental en cualquier momento, pero necesitan el OK de los sabios del Consejo de Estado."
+  },
+  {
+    "id": 38,
+    "tema": "Rojo",
+    "titulo": "Declaración de Lesividad (Art. 107 LPAC)",
+    "pregunta": "La AAPP dictó un acto ANULABLE favorable para ti. Ahora se arrepienten y quieren quitártelo. ¿Cómo lo hacen?",
+    "opciones": [
+      "Te mandan a la policía a tu casa para quitarte el papel de las manos.",
+      "Declarándolo lesivo para el interés público (máx. 4 años) e impugnándolo ellos mismos en el juzgado.",
+      "Lo anulan unilateralmente por Real Decreto Ley exprés."
+    ],
+    "correcta": 1,
+    "explicacion": "Si el acto es anulable (no nulo) y encima te beneficia a ti, ellos solos no te lo pueden quitar. Tienen que 'declararlo lesivo' e ir al juzgado a autodemanda para que un juez lo anule. Tienen 4 años."
+  },
+  {
+    "id": 39,
+    "tema": "Rojo",
+    "titulo": "Suspensión de Ejecución (Art. 117 LPAC)",
+    "pregunta": "Si interpones un recurso, ¿se paraliza automáticamente la sanción y dejas de pagar de momento?",
+    "opciones": [
+      "No. La interposición del recurso NO suspende la ejecución, salvo que pidas la suspensión y causes un perjuicio de imposible reparación.",
+      "Sí, claro. Al recurrir activas el escudo de inmunidad temporal hasta que resuelvan.",
+      "Sólo si acompañas el recurso con una caja de bombones."
+    ],
+    "correcta": 0,
+    "explicacion": "Los actos son ejecutivos. Interponer un recurso NO te libra de pagar. O pides la suspensión y te la conceden, o vas aflojando la gallina."
+  },
+  {
+    "id": 40,
+    "tema": "Rojo",
+    "titulo": "Recurso Extraordinario Revisión (Art. 125 LPAC)",
+    "pregunta": "Hace años te denegaron algo. Hoy descubres unos documentos ocultos en el cajón de un funcionario que demostraban que tenías razón. ¿Qué pasa?",
+    "opciones": [
+      "Ajo y agua, el acto es firme y lo pasado pasado está.",
+      "Pones un recurso extraordinario de revisión por aparición de documentos de valor esencial (plazo de 3 meses desde que los descubres).",
+      "Te vas a Espejo Público a montar el pollo mediático."
+    ],
+    "correcta": 1,
+    "explicacion": "El Extraordinario de Revisión existe para estos 'milagros' o negligencias. Si aparecen documentos que no estaban, tienes 3 meses desde el hallazgo para reabrir el caso."
+  },
+  {
+    "id": 41,
+    "tema": "Fucsia",
+    "titulo": "Participación Política (Art. 23 CE)",
+    "pregunta": "¿Puedes presentarte a alcalde de tu pueblo prometiendo barra libre los viernes?",
+    "opciones": [
+      "No, la Junta Electoral te veta por competencia desleal a los bares.",
+      "Sí. Los ciudadanos tienen derecho a participar en los asuntos públicos, directamente o por representantes.",
+      "Solo si has nacido en el municipio y tienes al menos 3 vacas a tu nombre."
+    ],
+    "correcta": 1,
+    "explicacion": "El Art. 23 te da derecho a meterte en política y a acceder a cargos públicos. Lo de cumplir las promesas ya es otra historia."
+  },
+  {
+    "id": 42,
+    "tema": "Fucsia",
+    "titulo": "Tutela Judicial Efectiva (Art. 24 CE)",
+    "pregunta": "Te sientan en el banquillo. El juez te pregunta directamente si robaste el banco. ¿Estás obligado a cantar?",
+    "opciones": [
+      "Sí, si te ponen la luz en la cara como en las pelis.",
+      "Toda persona tiene derecho a no declarar contra sí misma y a no confesarse culpable.",
+      "Depende de si juraste sobre la Constitución o sobre un cómic de Mortadelo."
+    ],
+    "correcta": 1,
+    "explicacion": "El sagrado derecho a hacerte el sueco. No tienes por qué incriminarte a ti mismo (Art. 24.2), por mucho que insistan."
+  },
+  {
+    "id": 43,
+    "tema": "Fucsia",
+    "titulo": "Principio de Legalidad Penal (Art. 25 CE)",
+    "pregunta": "El Congreso se inventa un delito nuevo hoy. ¿Te pueden enchironar por algo que hiciste ayer y que hoy es ilegal?",
+    "opciones": [
+      "Nadie puede ser condenado por acciones u omisiones que no constituyan delito en el momento de producirse.",
+      "Sí, si la nueva ley tiene carácter retroactivo por tus narices.",
+      "Sólo si ayer te pillaron grabándolo para TikTok."
+    ],
+    "correcta": 0,
+    "explicacion": "No hay delito sin ley previa. Si ayer no era ilegal comer pizza con piña, hoy no te pueden meter preso por la de ayer (aunque deberían)."
+  },
+  {
+    "id": 44,
+    "tema": "Fucsia",
+    "titulo": "Derecho a la Educación (Art. 27 CE)",
+    "pregunta": "¿Hasta qué punto el Estado te obliga a calentar la silla en el colegio?",
+    "opciones": [
+      "Hasta que te salga barba o sepas hacer raíces cuadradas.",
+      "La enseñanza básica es obligatoria y gratuita.",
+      "Hasta los 18, salvo que te fichen para un equipo de eSports."
+    ],
+    "correcta": 1,
+    "explicacion": "La enseñanza básica (Primaria y ESO) te la comes con patatas obligatoriamente, y además, no te la pueden cobrar."
+  },
+  {
+    "id": 45,
+    "tema": "Fucsia",
+    "titulo": "Libertad Sindical y Huelga (Art. 28 CE)",
+    "pregunta": "Estás harto de tu jefe y quieres fundar el Sindicato de Trabajadores Cansados. ¿Alguien te puede obligar a afiliarte a otro?",
+    "opciones": [
+      "Sí, el sindicato que tenga la sede más cerca de tu casa.",
+      "Todos tienen derecho a sindicarse libremente, y nadie podrá ser obligado a afiliarse a un sindicato.",
+      "Sólo pueden obligarte si el convenio colectivo está patrocinado por Red Bull."
+    ],
+    "correcta": 1,
+    "explicacion": "Eres libre de afiliarte al sindicato que te dé la gana, de montar uno nuevo o de pasar olímpicamente de todos ellos."
+  },
+  {
+    "id": 46,
+    "tema": "Fucsia",
+    "titulo": "Defensa de España (Art. 30 CE)",
+    "pregunta": "Empieza la Tercera Guerra Mundial y te llaman a filas. ¿Te puedes librar diciendo que eres alérgico a la violencia?",
+    "opciones": [
+      "No, te dan un casco y p'alante.",
+      "La ley fijará las garantías de la objeción de conciencia y otras causas de exención del servicio militar obligatorio.",
+      "Sí, si traes un justificante de tu madre."
+    ],
+    "correcta": 1,
+    "explicacion": "Aunque la mili ya no se hace, el Art. 30 prevé la objeción de conciencia. Si la cosa se pone fea, puedes pedir prestación social sustitutoria."
+  },
+  {
+    "id": 47,
+    "tema": "Fucsia",
+    "titulo": "Propiedad Privada (Art. 33 CE)",
+    "pregunta": "Tienes una casa preciosa donde quieren construir una autovía de 8 carriles. ¿Te la pueden expropiar?",
+    "opciones": [
+      "No, mi casa es mi castillo, que rodeen la parcela.",
+      "Sí, por causa justificada de utilidad pública o interés social, mediante la correspondiente indemnización.",
+      "Sí, y además te cobran el asfalto que pongan encima."
+    ],
+    "correcta": 1,
+    "explicacion": "Nadie podrá ser privado de sus bienes SALVO por utilidad pública (que el Estado manda) y siempre pasándote el cheque por delante (indemnización justiprecio)."
+  },
+  {
+    "id": 48,
+    "tema": "Fucsia",
+    "titulo": "Derecho a la Salud (Art. 43 CE)",
+    "pregunta": "Te has roto un dedo jugando al pádel. ¿La Constitución te ampara?",
+    "opciones": [
+      "Sí, reconoce el derecho a la protección de la salud y los poderes públicos deben organizar la salud pública.",
+      "No, las lesiones por deportes de pijos no están cubiertas por la Seguridad Social.",
+      "Sí, pero te ponen una tirita y te mandan a trabajar inmediatamente."
+    ],
+    "correcta": 0,
+    "explicacion": "El Art. 43 reconoce tu derecho a la sanidad. Da igual si te lo rompiste trabajando o intentando hacer una dejada ridícula."
+  },
+  {
+    "id": 49,
+    "tema": "Azul Eléctrico",
+    "titulo": "Juramento del Rey (Art. 61 CE)",
+    "pregunta": "El día que el Rey hereda la Corona, ¿qué es lo primero que le hacen firmar antes del champán?",
+    "opciones": [
+      "El contrato blindado con exclusividad para la revista Hola.",
+      "Jurar guardar y hacer guardar la Constitución y las leyes, y respetar los derechos de los ciudadanos.",
+      "El recibo del IBI del Palacio de la Zarzuela."
+    ],
+    "correcta": 1,
+    "explicacion": "Antes de poner la corona en la cabeza (metafóricamente), hay que jurar fidelidad a la Constitución frente a las Cortes Generales."
+  },
+  {
+    "id": 50,
+    "tema": "Azul Eléctrico",
+    "titulo": "Refrendo Real (Art. 64 CE)",
+    "pregunta": "¿Qué ocurre si el Rey firma una ley sin que el Presidente o el Ministro correspondiente la firme (refrende) con él?",
+    "opciones": [
+      "Que carece de validez. Los actos del Rey serán nulos sin dicho refrendo.",
+      "Vale igual, que para algo es el Jefe del Estado.",
+      "Que la ley es secreta y sólo se aplica los días impares."
+    ],
+    "correcta": 0,
+    "explicacion": "El Rey reina pero no gobierna. Cualquier papel oficial que firme sin la firma de un Ministro o Presidente (refrendo), vale lo mismo que un billete de 3 euros."
+  },
+  {
+    "id": 51,
+    "tema": "Azul Eléctrico",
+    "titulo": "Inmunidad Parlamentaria (Art. 71 CE)",
+    "pregunta": "¿Qué pasa si un Diputado monta el pollo en el Congreso e insulta a otro?",
+    "opciones": [
+      "Gozan de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones.",
+      "Le sacan tarjeta roja y se pierde dos plenos.",
+      "La policía lo detiene por escándalo público, como a cualquiera."
+    ],
+    "correcta": 0,
+    "explicacion": "Los diputados y senadores tienen vía libre para decir burradas ('inviolabilidad') siempre que sea dentro de su curro en la cámara. Son intocables ahí dentro."
+  },
+  {
+    "id": 52,
+    "tema": "Azul Eléctrico",
+    "titulo": "Mayorías de las Cortes (Art. 79 CE)",
+    "pregunta": "Para aprobar cualquier movida ordinaria en el Congreso, ¿cuántos tienen que levantar la mano diciendo 'Sí'?",
+    "opciones": [
+      "Todos, debe haber unanimidad o nadie se va a casa.",
+      "La regla general es la mayoría simple de los miembros presentes (más votos a favor que en contra).",
+      "Los 350 exactos, si falta uno al baño se repite todo."
+    ],
+    "correcta": 1,
+    "explicacion": "A menos que la CE exija una mayoría especial (absoluta, 3/5, etc.), con tener más amigos presentes en la sala apoyando que quejándose, es suficiente."
+  },
+  {
+    "id": 53,
+    "tema": "Azul Eléctrico",
+    "titulo": "Iniciativa Popular (Art. 87.3 CE)",
+    "pregunta": "Estás cansado de todo y decides crear una ley por tu cuenta. ¿Cuántas firmas de tus vecinos necesitas para que te escuchen?",
+    "opciones": [
+      "Un par de retuits de alguna cuenta famosa.",
+      "Mínimo 10.000, recogidas en papel oficial.",
+      "No menos de 500.000 firmas acreditadas, y además hay materias que no puedes tocar."
+    ],
+    "correcta": 2,
+    "explicacion": "Para la Iniciativa Legislativa Popular necesitas convencer a medio millón de españoles, y encima no puedes hacer leyes de impuestos, orgánicas o internacionales. ¡Suerte con eso!"
+  },
+  {
+    "id": 54,
+    "tema": "Azul Eléctrico",
+    "titulo": "Tratados Internacionales (Art. 93 CE)",
+    "pregunta": "Si España quiere cederle poder a la Unión Europea para que nos obligue a usar cargadores tipo C, ¿cómo se aprueba?",
+    "opciones": [
+      "Por Real Decreto en Consejo de Ministros.",
+      "Mediante Ley Orgánica. Se necesita autorización de las Cortes con mayoría absoluta.",
+      "Por votación en Eurovisión."
+    ],
+    "correcta": 1,
+    "explicacion": "Regalar soberanía a organizaciones internacionales (como la UE) requiere artillería pesada: una Ley Orgánica (176 diputados votando que sí)."
+  },
+  {
+    "id": 55,
+    "tema": "Azul Eléctrico",
+    "titulo": "Dirección del Gobierno (Art. 97 CE)",
+    "pregunta": "¿Quién es el mandamás que dirige la administración civil, la militar y la defensa del Estado?",
+    "opciones": [
+      "El Capitán General de los Ejércitos de España.",
+      "El Rey en solitario, dando órdenes desde Palacio.",
+      "El Gobierno dirige la política interior y exterior, la Administración civil y militar."
+    ],
+    "correcta": 2,
+    "explicacion": "El Gobierno es el que corta el bacalao ejecutivo. Dirige a los burócratas, a los militares, y decide si somos amigos de Francia o no."
+  },
+  {
+    "id": 56,
+    "tema": "Azul Eléctrico",
+    "titulo": "Moción de Censura (Art. 113 CE)",
+    "pregunta": "El Congreso quiere echar al Presidente. ¿Vale con decir 'te vas' y aplaudir?",
+    "opciones": [
+      "No. La moción tiene que incluir un candidato alternativo a la Presidencia del Gobierno (moción constructiva).",
+      "Sí, si gritan '¡Dimisión!' muy fuerte durante tres minutos.",
+      "Solo si el Rey baja al hemiciclo y le arranca la corbata."
+    ],
+    "correcta": 0,
+    "explicacion": "En España la moción es 'constructiva'. Si quieres cargarte al Presidente, tienes que proponer a otro (y que te lo apruebe la mayoría absoluta). Si no, os quedáis con el que hay."
+  },
+  {
+    "id": 57,
+    "tema": "Verde Ácido",
+    "titulo": "Igualdad de Derechos (Art. 139 CE)",
+    "pregunta": "Te vas a mudar a una Comunidad Autónoma vecina porque el agua sabe mejor. ¿Te pueden cobrar un peaje especial por cruzar la frontera regional?",
+    "opciones": [
+      "Sí, la aduana autonómica te requisa los embutidos.",
+      "Ninguna autoridad podrá adoptar medidas que obstaculicen la libertad de circulación y establecimiento de personas o bienes.",
+      "Solo si tu matrícula es del Madrid y vas a Barcelona."
+    ],
+    "correcta": 1,
+    "explicacion": "Todos los españoles tienen los mismos derechos y obligaciones en cualquier parte de España. Nada de fronteras invisibles ni peajes de mudanza."
+  },
+  {
+    "id": 58,
+    "tema": "Verde Ácido",
+    "titulo": "Iniciativa Autonómica (Art. 143 CE)",
+    "pregunta": "Quieres montar una nueva Comunidad Autónoma con tu provincia y la de al lado. ¿Qué requisitos básicos pide la Constitución?",
+    "opciones": [
+      "Que tengáis una gastronomía similar demostrable empíricamente.",
+      "Provincias limítrofes con características históricas, culturales y económicas comunes.",
+      "Tener un equipo de fútbol en primera división conjunto."
+    ],
+    "correcta": 1,
+    "explicacion": "No vale juntarse por juntarse. Tienen que ser limítrofes (nada de unir Cádiz con Santander) y tener un rollo histórico-cultural en común."
+  },
+  {
+    "id": 59,
+    "tema": "Verde Ácido",
+    "titulo": "Competencias Asumibles (Art. 148 CE)",
+    "pregunta": "¿Qué competencias básicas SÍ puede pillar una CCAA nada más crear su Estatuto sin pedir permisos extra?",
+    "opciones": [
+      "Imprimir sus propios billetes con la cara de su presidente.",
+      "Asistencia social, turismo, museos de interés para la región y artesanía.",
+      "Declarar la guerra a Portugal."
+    ],
+    "correcta": 1,
+    "explicacion": "El Art. 148 tiene el catálogo de saldo: competencias facilotas como ferias, museos regionales, turismo... lo suave para empezar a rodar."
+  },
+  {
+    "id": 60,
+    "tema": "Verde Ácido",
+    "titulo": "Leyes de Transferencia (Art. 150.2 CE)",
+    "pregunta": "El Estado tiene una competencia exclusiva pero quiere quitársela de encima y pasársela a una CCAA. ¿Cómo lo hace?",
+    "opciones": [
+      "A través de una 'Ley Orgánica de Transferencia o Delegación'.",
+      "Mandando un WhatsApp al presidente autonómico y deseándole suerte.",
+      "No puede, lo que es del Estado es del Estado hasta el fin de los tiempos."
+    ],
+    "correcta": 0,
+    "explicacion": "El Estado puede ser generoso y delegar competencias que por su naturaleza se puedan transferir, pero tiene que ser con Ley Orgánica (mayoría absoluta), que la cosa es seria."
+  },
+  {
+    "id": 61,
+    "tema": "Verde Ácido",
+    "titulo": "Vía Rápida Autonómica (Art. 151 CE)",
+    "pregunta": "¿Qué maldición burocrática tiene que pasar una autonomía para acceder al máximo nivel competencial por la 'vía rápida'?",
+    "opciones": [
+      "Ser País Vasco, Cataluña o Galicia y ya.",
+      "Referéndum favorable aprobado por mayoría absoluta de los electores de CADA UNA de las provincias que la forman.",
+      "Enviar 100 jamones pata negra a los diputados del Congreso."
+    ],
+    "correcta": 1,
+    "explicacion": "La vía del 151 es un infierno: se necesita el apoyo de las diputaciones y ganar un referéndum en TODAS y cada una de las provincias por mayoría absoluta."
+  },
+  {
+    "id": 62,
+    "tema": "Verde Ácido",
+    "titulo": "Control de las CCAA (Art. 153 CE)",
+    "pregunta": "¿Quién le mira las cuentas a una Comunidad Autónoma para ver si se han gastado el presupuesto en tonterías?",
+    "opciones": [
+      "El Tribunal de Cuentas, que controla el aspecto económico y presupuestario.",
+      "El Ministerio de Hacienda, mandando a los hombres de negro.",
+      "Nadie, tienen autonomía financiera total sin dar explicaciones."
+    ],
+    "correcta": 0,
+    "explicacion": "El Tribunal de Cuentas es el ojo de Sauron del dinero público, tanto del Estado como de las Comunidades Autónomas."
+  },
+  {
+    "id": 63,
+    "tema": "Verde Ácido",
+    "titulo": "Recursos de las CCAA (Art. 157 CE)",
+    "pregunta": "¿Cuál de estas cosas NO es una fuente de ingresos legal para una Comunidad Autónoma?",
+    "opciones": [
+      "Rendimientos de su propio patrimonio.",
+      "Transferencias del Fondo de Compensación Interterritorial.",
+      "Cobrar peajes en aduanas secretas para la importación de productos extranjeros."
+    ],
+    "correcta": 2,
+    "explicacion": "Aduanas prohibido, que eso es del Art. 149 (Estado exclusivo). Viven de impuestos, recargos, fondos y transferencias del Estado."
+  },
+  {
+    "id": 64,
+    "tema": "Verde Ácido",
+    "titulo": "Fondo de Compensación (Art. 158 CE)",
+    "pregunta": "¿Para qué narices sirve el Fondo de Compensación Interterritorial?",
+    "opciones": [
+      "Para pagar las multas de los políticos corruptos.",
+      "Para corregir los desequilibrios económicos y hacer efectivo el principio de solidaridad (repartir riqueza).",
+      "Para financiar las fiestas patronales de los pueblos en bancarrota."
+    ],
+    "correcta": 1,
+    "explicacion": "Robin Hood institucional: quitar de donde hay más para invertir en los territorios más pobres, garantizando la solidaridad que dice el Art. 2."
+  },
+  {
+    "id": 65,
+    "tema": "Naranja",
+    "titulo": "Capacidad de Obrar (Art. 9 LPAC)",
+    "pregunta": "Un menor de edad chavalillo, sin estar emancipado, ¿puede pelearse con la Administración para defender sus derechos?",
+    "opciones": [
+      "Sí, si la actuación está permitida sin asistencia de quien ejerza la patria potestad.",
+      "No, tiene que venir con sus padres cogidito de la mano siempre.",
+      "Solo si trae una autorización firmada por el director del colegio."
+    ],
+    "correcta": 0,
+    "explicacion": "Sorpresa: Los menores tienen capacidad de obrar para el ejercicio y defensa de derechos permitidos por ley sin ayuda paterna (ej: temas de DNI o ciertos recursos de estudiantes)."
+  },
+  {
+    "id": 66,
+    "tema": "Naranja",
+    "titulo": "Derechos de los Interesados (Art. 13 LPAC)",
+    "pregunta": "¿Qué derecho de paladín tienes ante las AAPP según el artículo 13?",
+    "opciones": [
+      "Ser tratado con respeto y deferencia por las autoridades y empleados públicos.",
+      "Exigir que te sirvan un café caliente mientras esperas en la cola.",
+      "Tener derecho de veto sobre el funcionario que te atienda si te cae mal."
+    ],
+    "correcta": 0,
+    "explicacion": "Tienes derecho a que te traten con respeto. Aunque a veces el cristal de la ventanilla te haga dudar, el funcionario tiene que ser profesional y cortés."
+  },
+  {
+    "id": 67,
+    "tema": "Naranja",
+    "titulo": "Suspensión del Plazo (Art. 22 LPAC)",
+    "pregunta": "La Administración está resolviendo tu expediente pero te pide que aportes un documento crucial. ¿Qué pasa con el cronómetro de su plazo de 3 meses?",
+    "opciones": [
+      "Que sigue contando, ellos sabrán cómo se organizan.",
+      "Que se suspende desde el requerimiento hasta que lo aportas (o expira el plazo para aportarlo).",
+      "Que se reinicia a cero desde el momento en el que entregas el papelito."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Pausa dramática! Le dan al botón de pausa del reloj. Si tú tardas 15 días en traer el papel, esos 15 días no le cuentan a la Administración para el límite."
+  },
+  {
+    "id": 68,
+    "tema": "Naranja",
+    "titulo": "Silencio Administrativo (Art. 24 LPAC)",
+    "pregunta": "Pides una licencia para abrir un bar, pasan los meses, los grillos cantan y nadie responde. ¿Es tu día de suerte?",
+    "opciones": [
+      "No, el silencio siempre es negativo. Pringaste.",
+      "Como regla general, el silencio es POSITIVO (estimatorio) en los procedimientos iniciados a solicitud del interesado, salvo ley en contrario.",
+      "Tienes que ir tú mismo al ayuntamiento a montarte la barra de bar sin permiso."
+    ],
+    "correcta": 1,
+    "explicacion": "La regla mágica de la Ley 39: si pides algo y callan, en principio es SÍ (Silencio Positivo). Ojo, que luego hay tantas excepciones en las leyes especiales que parece un mito."
+  },
+  {
+    "id": 69,
+    "tema": "Naranja",
+    "titulo": "Avisos de Notificación Electrónica (Art. 41 LPAC)",
+    "pregunta": "La AAPP te manda una notificación electrónica y te envía un email diciendo 'tienes un mensajito'. ¿Qué pasa si el email se pierde en el spam?",
+    "opciones": [
+      "La notificación es nula, tienen que mandártela por SMS a ver si lo lees.",
+      "La falta de aviso no impide que la notificación sea plenamente válida.",
+      "Te indemnizan por daños morales y estrés informático."
+    ],
+    "correcta": 1,
+    "explicacion": "El email de aviso es solo una 'cortesía'. Si no te llega el aviso pero la notificación sí está en tu sede electrónica, el plazo corre. ¡A revisar el spam!"
+  },
+  {
+    "id": 70,
+    "tema": "Naranja",
+    "titulo": "Notificación Infructuosa (Art. 44 LPAC)",
+    "pregunta": "No te encuentran ni en papel, ni electrónicamente, ni debajo de las piedras. ¿Cómo se notifican finalmente para joderte?",
+    "opciones": [
+      "Dejándolo por imposible y borrándote del sistema por ninja.",
+      "Publicándolo en el Boletín Oficial del Estado (BOE). A partir de ahí, se da por enterado.",
+      "Poniendo tu cara en un cartel de 'Se Busca' en la puerta del Ayuntamiento."
+    ],
+    "correcta": 1,
+    "explicacion": "Si te haces el fantasma, acaban publicándolo en el BOE. Y como todo el mundo sabe, nadie lee el BOE, así que te la cuelan por la espalda legalmente."
+  },
+  {
+    "id": 71,
+    "tema": "Naranja",
+    "titulo": "Inicio de Oficio (Art. 55 LPAC)",
+    "pregunta": "¿Qué órgano es el único iluminado que puede acordar el inicio de un procedimiento de oficio (sin que tú pidas nada)?",
+    "opciones": [
+      "El conserje de la planta baja que se aburre.",
+      "El órgano competente, por propia iniciativa o como consecuencia de orden superior, a petición razonada o por denuncia.",
+      "Cualquier ciudadano que pase por allí y ponga una reclamación anónima."
+    ],
+    "correcta": 1,
+    "explicacion": "Solo el 'órgano competente' puede darle al botón de inicio. Ya sea porque le mandan desde arriba, porque él quiere, o porque alguien te ha denunciado."
+  },
+  {
+    "id": 72,
+    "tema": "Naranja",
+    "titulo": "Denuncias (Art. 62 LPAC)",
+    "pregunta": "Tu vecino, que te odia, te denuncia de forma anónima porque hiciste ruido el sábado. ¿Acepta la LPAC las denuncias anónimas?",
+    "opciones": [
+      "Las denuncias siempre deben ir con nombre, apellidos y DNI del denunciante para evitar cobardicas.",
+      "Sí, la ley admite que se puedan presentar de forma anónima, sobre todo si hay canales internos de denuncia.",
+      "Solo si la denuncia viene adjunta con pruebas fotográficas de calidad 4K."
+    ],
+    "correcta": 1,
+    "explicacion": "Sorpresa post-2015: Las AAPP han de fomentar y admitir canales seguros para denuncias anónimas, sobre todo en temas de infracciones graves."
+  },
+  {
+    "id": 73,
+    "tema": "Rojo",
+    "titulo": "Suspensión por Perjuicio (Art. 108 LPAC)",
+    "pregunta": "Pides que suspendan la ejecución de un acto mientras se revisa. ¿En qué caso te dicen rotundamente que nanai?",
+    "opciones": [
+      "Cuando suspenderlo pueda causar perjuicio grave al interés público o a terceros.",
+      "Cuando no lleves el papel timbrado correcto.",
+      "Cuando lo solicites en un mes que tenga letra R."
+    ],
+    "correcta": 0,
+    "explicacion": "La suspensión (frenar la ejecución) se concede para evitarte un daño irreparable a ti, SALVO que al hacerlo perjudiques gravemente a todos los demás o al Estado."
+  },
+  {
+    "id": 74,
+    "tema": "Rojo",
+    "titulo": "Fin de Vía Administrativa (Art. 114 LPAC)",
+    "pregunta": "¿Cuáles de estos actos NO agotan (ponen fin) la vía administrativa y te obligan a poner Recurso de Alzada?",
+    "opciones": [
+      "Las resoluciones de los recursos de alzada (ya estás en la cima, amigo).",
+      "Los acuerdos de los Ministros y Secretarios de Estado.",
+      "La resolución de un Director General que todavía tiene un Secretario de Estado por encima suyo."
+    ],
+    "correcta": 2,
+    "explicacion": "Si el órgano que dicta la resolución NO es la cima de la pirámide (tiene superior jerárquico), NO pone fin a la vía y te toca subir el escalón con la Alzada."
+  },
+  {
+    "id": 75,
+    "tema": "Rojo",
+    "titulo": "Reformatio in peius (Art. 119 LPAC)",
+    "pregunta": "Pones un recurso porque te han multado con 100€. El jefe lo lee, se cabrea, y te dice: 'No tienes razón, y por listo, ahora pagas 200€'. ¿Es legal?",
+    "opciones": [
+      "Sí, el que juega con fuego administrativo se quema.",
+      "Totalmente prohibido. La resolución del recurso no puede agravar tu situación inicial (reformatio in peius).",
+      "Sólo si te avisan antes con un burofax."
+    ],
+    "correcta": 1,
+    "explicacion": "Prohibidísimo. Es la garantía de recurrir: nunca vas a salir peor de lo que entraste. Como mucho, te quedas igual de fastidiado."
+  },
+  {
+    "id": 76,
+    "tema": "Rojo",
+    "titulo": "Plazos de Alzada Silencio (Art. 122 LPAC)",
+    "pregunta": "Pusiste una reclamación normal y no te han dicho nada (silencio). Ahora quieres poner un recurso de Alzada. ¿Cuánto tiempo tienes?",
+    "opciones": [
+      "Tres meses contados desde el día que se produjo el silencio.",
+      "En cualquier momento a partir del día siguiente a aquel en que se produzcan los efectos del silencio.",
+      "Un mes y ni un día más."
+    ],
+    "correcta": 1,
+    "explicacion": "Otra maravilla de la LPAC actual: ante un acto presunto (silencio), el plazo para recurrir no caduca nunca. 'En cualquier momento' a partir del silencio."
+  },
+  {
+    "id": 77,
+    "tema": "Rojo",
+    "titulo": "Causas Recurso Extraordinario (Art. 125 LPAC)",
+    "pregunta": "Para poner un Recurso Extraordinario de Revisión necesitas causas flipantes. ¿Cuál de estas vale?",
+    "opciones": [
+      "Que el funcionario firmó el papel con boli rojo en vez de azul.",
+      "Que la resolución se dictó como consecuencia de prevaricación, cohecho o maquinación fraudulenta declarada por sentencia firme.",
+      "Que el día que se dictó la resolución estabas triste."
+    ],
+    "correcta": 1,
+    "explicacion": "Este recurso es para peliculones: documentos ocultos esenciales, testigos falsos demostrados en juicio penal, o prevaricación condenada."
+  },
+  {
+    "id": 78,
+    "tema": "Rojo",
+    "titulo": "Plazos Recurso Extraordinario (Art. 126 LPAC)",
+    "pregunta": "Descubres que hubo testigos falsos en tu caso hace años (y hay sentencia penal firme de eso). ¿Cuánto tiempo tienes para meter el recurso extraordinario?",
+    "opciones": [
+      "3 meses desde que la sentencia penal quedó firme.",
+      "15 días hábiles a contar desde tu mosqueo.",
+      "4 años. Y si te pasas, caduca."
+    ],
+    "correcta": 0,
+    "explicacion": "El reloj aquí es de 3 meses. Se cuenta desde que aparecen los documentos o desde que la sentencia penal declara la falsedad/prevaricación."
+  },
+  {
+    "id": 79,
+    "tema": "Rojo",
+    "titulo": "Anulabilidad (Art. 48 LPAC)",
+    "pregunta": "El órgano competente dictó el acto, pero se saltó un trámite procedimental no esencial. El acto es...",
+    "opciones": [
+      "Nulo de pleno derecho absoluto.",
+      "Anulable, y si no recurres en plazo se convalida y tan tranquilos.",
+      "Perfectamente legal porque los trámites son recomendaciones."
+    ],
+    "correcta": 1,
+    "explicacion": "Las 'cagaditas' de procedimiento que no generen indefensión absoluta son simplemente 'anulables'. Si no te quejas a tiempo en los plazos de recurso, te la comes con patatas (convalidación)."
+  },
+  {
+    "id": 80,
+    "tema": "Rojo",
+    "titulo": "Medidas Provisionales (Art. 56 y 117 LPAC)",
+    "pregunta": "Antes de empezar el procedimiento o durante un recurso, la Administración te precinta el local 'por si acaso'. Esto es una medida provisional. ¿Cuánto dura?",
+    "opciones": [
+      "Hasta el fin de los tiempos o hasta que se resuelva la cosa.",
+      "Quince días obligatorios sin excepción.",
+      "Deben alzarse (quitarse) o modificarse cuando cambien las circunstancias o no haya riesgo."
+    ],
+    "correcta": 2,
+    "explicacion": "Las medidas cautelares/provisionales no son castigos fijos. Se tienen que adaptar, quitar o poner según el peligro real. Si el peligro pasa, te tienen que desprecintar."
   }
 ]
