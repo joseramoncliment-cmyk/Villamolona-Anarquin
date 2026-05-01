@@ -648,5 +648,655 @@
     ],
     "correcta": 2,
     "explicacion": "Obvio, ¿no? Aunque el camarero seguramente te dé mejores consejos, legalmente no cuenta. El Art. 114 y el 16 te dan muchas opciones, pero el bar Manolo no es una de ellas."
+  },
+  {
+    "id": 51,
+    "tema": "Fucsia",
+    "titulo": "Detención y sus cosas",
+    "pregunta": "Imagina que te han metido en el calabozo por... digamos... 'exceso de entusiasmo' en la biblioteca. ¿Cuánto tiempo pueden tenerte ahí criando malvas antes de que un juez te vea la cara o te manden a paseo?",
+    "opciones": [
+      "Lo que le dé la gana al sargento de turno, que para eso tiene el bigote más tieso que tu futuro.",
+      "Un máximo de 72 horitas, que es el tiempo estrictamente necesario para que se den cuenta de que tu mayor delito es cantar mal en la ducha.",
+      "Hasta que tus padres paguen la fianza o te dejen de seguir en Instagram, lo que ocurra primero."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Correcto es 72 horas, figura! Si has marcado otra cosa, igual el próximo 'habeas corpus' lo pides tú desde dentro. Espabila, que te detienen por lento."
+  },
+  {
+    "id": 52,
+    "tema": "Fucsia",
+    "titulo": "Negociando el sueldo",
+    "pregunta": "Tu jefe, que es más agarrado que un chotis, quiere negociar vuestro convenio. Según el artículo 37 de la Carta Magna, ¿quién tiene la sartén por el mango para sentarse a la mesa a discutir las lentejas?",
+    "opciones": [
+      "Los representantes de los trabajadores y los empresarios, que para eso se inventaron los sindicatos y la patronal, no para irse de mariscada (solo).",
+      "El becario más espabilado y el director financiero, en un combate a muerte con clips y grapadoras.",
+      "El Ministerio de Trabajo, que baja de los cielos cual ángel exterminador a poner orden y a llevarse los canapés."
+    ],
+    "correcta": 0,
+    "explicacion": "Claro que sí, los representantes de ambos bandos. Si pensabas que el becario tenía voz y voto es que llevas demasiado tiempo sin dormir. Un café y a seguir."
+  },
+  {
+    "id": 53,
+    "tema": "Fucsia",
+    "titulo": "Peticiones al ayuntamiento",
+    "pregunta": "Estás hasta el gorro de que el ayuntamiento no arregle el socavón de tu calle, que ya tiene su propio ecosistema. Decides ejercer tu derecho de petición del art. 29. ¿Cómo tienes que hacerlo para que no usen tu escrito para calzar una mesa coja?",
+    "opciones": [
+      "Mandando un TikTok con un baile viral delante del bache. Si consigues suficientes 'likes', te lo asfaltan con oro.",
+      "Gritando muy fuerte desde tu balcón a las 3 de la mañana. Se conoce como 'petición de balcón a grito pelao', muy tradicional.",
+      "Siempre por escrito, individual o colectivamente, que las palabras se las lleva el viento y las peticiones en papel acaban, con suerte, en la mesa de alguien."
+    ],
+    "correcta": 2,
+    "explicacion": "Por escrito, lumbreras. El resto son ganas de hacer el ridículo y acabar en un vídeo de 'impacto total'. Coge papel y boli, que no muerden."
+  },
+  {
+    "id": 54,
+    "tema": "Fucsia",
+    "titulo": "Ecología de barrio",
+    "pregunta": "Un lumbreras decide que el río de tu pueblo es el lugar ideal para deshacerse de unos bidones con un líquido verde fosforito. Según el sabio art. 45, ¿qué tipo de 'premio' le puede caer por su brillante idea ecologista?",
+    "opciones": [
+      "Sanciones penales o, en su caso, administrativas, además de la obligación de reparar el estropicio. Vamos, que le va a salir cara la broma.",
+      "Una palmadita en la espalda y el título de 'Innovador del Año en Gestión de Residuos'. Igual hasta le dan una subvención.",
+      "Tener que beberse un vasito del líquido verde para demostrar que es inocuo. Se llama 'justicia poética'."
+    ],
+    "correcta": 0,
+    "explicacion": "¡Sanciones, claro que sí! Penales o administrativas, que contaminar no es gratis. Si marcaste la del vasito, tienes un sentido del humor tan oscuro como el futuro del planeta."
+  },
+  {
+    "id": 55,
+    "tema": "Fucsia",
+    "titulo": "Valiente de Twitter",
+    "pregunta": "Te crees muy gallito en redes y decides que vas a contar 'verdades como puños' sobre tu vecino. El artículo 20 te da libertad de expresión, pero, ¿dónde está el límite para que no acabes pidiendo perdón con una orden de alejamiento?",
+    "opciones": [
+      "No hay límite, tú dale caña. La libertad de expresión es como un buffet libre, cógelo todo que es para ti.",
+      "En el derecho al honor, a la intimidad, a la propia imagen y en la protección de la juventud. Tu libertad acaba donde empieza el Código Penal, artista.",
+      "El límite lo marca el número de retweets. Si pasas de mil, se considera 'opinión pública' y es totalmente legal."
+    ],
+    "correcta": 1,
+    "explicacion": "Obviamente hay límites, campeón. El honor y la intimidad de los demás, por ejemplo. A ver si aprendemos que Twitter no es el salvaje oeste. Menos zascas y más estudiar."
+  },
+  {
+    "id": 56,
+    "tema": "Fucsia",
+    "titulo": "Habeas Corpus para Dummies",
+    "pregunta": "Sigues en el calabozo (se ve que te gusta el ambiente). Decides que esto es un cachondeo y quieres pedir el 'Habeas Corpus'. ¿A quién le tienes que llorar para que un juez decida si tu detención es legal o de chiste?",
+    "opciones": [
+      "Al Defensor del Pueblo, que te manda un tuit de apoyo y un kit de supervivencia para la celda con una lima de uñas.",
+      "Al Juez de Instrucción del lugar donde te tengan encerrado. Es el único que puede sacarte de ahí antes de que te hagas amigo de las ratas.",
+      "A tu madre, que se presenta allí con la zapatilla y no hay policía que se le resista. Es el 'Habeas Maternus', un clásico."
+    ],
+    "correcta": 1,
+    "explicacion": "Al Juez de Instrucción, melón. Si marcaste al Defensor del Pueblo es que confundes la Constitución con la carta a los Reyes Magos. A chapar."
+  },
+  {
+    "id": 57,
+    "tema": "Fucsia",
+    "titulo": "Huelga por un café digno",
+    "pregunta": "La plantilla de tu empresa está que trina y decidís montar una huelga porque el café de la máquina sabe a rayos. El art. 37 reconoce el derecho a adoptar medidas de conflicto colectivo. ¿Qué garantiza la ley para que no se os vaya de las manos?",
+    "opciones": [
+      "Garantiza que el jefe os traerá churros y chocolate a la puerta como gesto de buena voluntad. Y un masajista para la espalda.",
+      "Nada, es una trampa. En cuanto sales a la calle con la pancarta, te despiden y contratan a un robot que no protesta y funciona con ese café horrible.",
+      "El mantenimiento de los servicios esenciales de la comunidad. Vamos, que podéis montar el pollo, pero los hospitales tienen que seguir funcionando."
+    ],
+    "correcta": 2,
+    "explicacion": "Exacto, los servicios esenciales son sagrados. A ver si por pedir café decente vais a dejar a la ciudad sin ambulancias. Un poco de cabeza, por favor."
+  },
+  {
+    "id": 58,
+    "tema": "Fucsia",
+    "titulo": "El coñazo de reciclar",
+    "pregunta": "El artículo 45 dice que todos tenemos derecho a disfrutar de un medio ambiente cuqui, pero también viene con letra pequeña. ¿Cuál es el 'pequeño' deber que nos endosa a todos los españolitos de a pie?",
+    "opciones": [
+      "El deber de conservarlo. Sí, colega, no solo es disfrutarlo, también te toca no ser un guarro y recoger tus latas de la playa.",
+      "El deber de plantar un árbol, escribir un poema y abrazar a un koala una vez al año. El 'pack ecologista' completo.",
+      "El deber de pagar un nuevo impuesto llamado 'Tasa por Respirar Aire Que No Has Filtrado Tú Mismo'. Lo están estudiando."
+    ],
+    "correcta": 0,
+    "explicacion": "El deber de conservarlo, figura. Que nos gusta mucho el campo para la barbacoa pero luego dejamos todo hecho un asco. Un poco de responsabilidad, ¿no?"
+  },
+  {
+    "id": 59,
+    "tema": "Fucsia",
+    "titulo": "Profesor chiflado",
+    "pregunta": "Un profesor de universidad, en un arrebato de inspiración, decide dar su clase de Derecho Romano en Klingon. ¿Qué derecho del artículo 20 le ampara en su... peculiar método pedagógico?",
+    "opciones": [
+      "El derecho a la producción y creación artística. La clase es su 'performance' y si no te gusta, te aguantas.",
+      "La libertad de cátedra. Mientras no diga barbaridades, puede dar la clase como le parezca, aunque no entiendas ni papa y suspendas.",
+      "El derecho a comunicar libremente información veraz. Y es veraz que en Klingon 'abogado' se dice 'hoHqang'."
+    ],
+    "correcta": 1,
+    "explicacion": "Es la libertad de cátedra. Le protege a él, no a tus notas. Así que más te vale buscar un buen traductor o cambiarte de clase. Qapla'!"
+  },
+  {
+    "id": 60,
+    "tema": "Fucsia",
+    "titulo": "Militares y sus quejas",
+    "pregunta": "Un militar, harto de la comida del cuartel, quiere mandarle una carta al Ministro de Defensa para pedirle más croquetas. Según el art. 29, ¿cómo tiene que ejercer este soldado su derecho de petición para no acabar pelando patatas un mes?",
+    "opciones": [
+      "Solo puede hacerlo individualmente y siguiendo las leyes específicas de su cuerpo. Nada de montar un sindicato de 'Croquetas Dignas Ya'.",
+      "Puede organizar una petición colectiva con todo su batallón. Cuantos más firmen, más croquetas consiguen. Es pura matemática.",
+      "No puede. Los militares renuncian a este derecho al jurar bandera. Su única petición es '¡Sí, mi sargento!'."
+    ],
+    "correcta": 0,
+    "explicacion": "Individualmente y con arreglo a su legislación específica, que no está el horno para bollos (ni para croquetas). Si la lía, lo mandan a hacer la 'operación G.I. Joe pelapatatas'. ¡A la orden!"
+  },
+  {
+    "id": 61,
+    "tema": "Azul Eléctrico",
+    "titulo": "El Rey y su boli BIC",
+    "pregunta": "A ver, lumbreras. Cuando el Congreso y el Senado se curran una ley y se la pasan al Rey, ¿qué hace Su Majestad con el papelito?",
+    "opciones": [
+      "Le pasa el Tipex a los artículos que no le molan y la devuelve con un 'necesita mejorar'.",
+      "La firma y la manda al BOE como si le fuera la vida en ello, porque es su curro y no tiene veto.",
+      "La publica en sus 'stories' de Instagram para ver qué opina la gente antes de decidir."
+    ],
+    "correcta": 1,
+    "explicacion": "Exacto, el Rey sanciona y promulga, que viene a ser firmar sin rechistar. A ver si te creías que tenía poder de veto como en las pelis. ¡A estudiar!"
+  },
+  {
+    "id": 62,
+    "tema": "Azul Eléctrico",
+    "titulo": "Echar al Presi con estilo",
+    "pregunta": "Imagina que te levantas un día con ganas de liarla y quieres montar una moción de censura. ¿Qué requisito es más imprescindible que el café por la mañana?",
+    "opciones": [
+      "Presentar un candidato alternativo, no vaya a ser que dejes el país sin nadie al volante.",
+      "Conseguir el apoyo de todos los partidos de la oposición, hasta los que se odian a muerte.",
+      "Hacer un vídeo viral en TikTok explicando tus motivos con un bailecito pegadizo."
+    ],
+    "correcta": 0,
+    "explicacion": "¡Bingo! Es una moción 'constructiva', genio. No vale con destruir, tienes que proponer a otro para el marrón. Si fallaste esta, replantéate lo de opositar."
+  },
+  {
+    "id": 63,
+    "tema": "Azul Eléctrico",
+    "titulo": "El Fiscal, ese colega",
+    "pregunta": "El Ministerio Fiscal, que suena a gente muy seria, ¿cuál es su verdadera misión en este circo, según el artículo 124 de la CE?",
+    "opciones": [
+      "Asegurarse de que el Gobierno de turno siempre gane los juicios importantes.",
+      "Defender a los ciudadanos de a pie, como un superhéroe con toga pero sin capa.",
+      "Promover la justicia defendiendo la legalidad y el interés público. Un chollo, vamos."
+    ],
+    "correcta": 2,
+    "explicacion": "Efectivamente, su curro es defender la ley, no a un partido ni a tu primo el del pueblo. ¿Lo pillas o te hago un croquis?"
+  },
+  {
+    "id": 64,
+    "tema": "Azul Eléctrico",
+    "titulo": "El superpoder de las Cortes",
+    "pregunta": "Las Cortes Generales, ese sitio lleno de gente trajeada que vemos en la tele, ¿qué dos cosas clave hacen para justificar su sueldo?",
+    "opciones": [
+      "Nombrar a los jueces del Supremo y organizar las fiestas patronales de España.",
+      "Hacer las leyes que te tienes que estudiar y decidir en qué se gasta tu dinero con los presupuestos.",
+      "Controlar los programas del corazón y elegir al representante de Eurovisión."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Ahí le has dado! Potestad legislativa y presupuestaria. Básicamente, hacen las reglas del juego y manejan la pasta. El resto es puro teatro."
+  },
+  {
+    "id": 65,
+    "tema": "Azul Eléctrico",
+    "titulo": "El Juramento del Rey",
+    "pregunta": "Cuando el Rey es proclamado, tiene que hacer un juramento para que la gente se quede tranquila. ¿Ante quién monta el numerito?",
+    "opciones": [
+      "Ante el Papa en el Vaticano, para que le dé su bendición y todo quede más divino.",
+      "Ante un espejo, para practicar su cara más solemne y no reírse en el momento clave.",
+      "Ante las Cortes Generales, que son los que representan al personal que le paga el sueldo."
+    ],
+    "correcta": 2,
+    "explicacion": "Claro que sí, ante el Congreso y el Senado juntitos. Es como jurar ante el jefe, que en teoría es el pueblo. Si has fallado, mereces un capón."
+  },
+  {
+    "id": 66,
+    "tema": "Azul Eléctrico",
+    "titulo": "El Rey y las elecciones",
+    "pregunta": "Se acaba la legislatura y toca volver a votar. ¿Quién es el encargado de pulsar el botón rojo para disolver las Cortes y convocar al personal a las urnas?",
+    "opciones": [
+      "El Rey, pero solo después de que el Presidente del Gobierno le diga: 'Felipe, dale al botoncito, que nos vamos de campaña'.",
+      "El Rey, cuando se aburre y le apetece un poco de salseo político para animar el cotarro.",
+      "El presidente del CIS, que según las encuestas decide si es buen momento para el show."
+    ],
+    "correcta": 0,
+    "explicacion": "¡Correcto! El Rey convoca, pero a propuesta del Presidente. El monarca no se levanta un día y dice '¡Elecciones para todos!'. No es tan divertido, lo sé."
+  },
+  {
+    "id": 67,
+    "tema": "Azul Eléctrico",
+    "titulo": "Mayoría para la censura",
+    "pregunta": "Para que tu moción de censura triunfe y puedas mandar al Presidente a su casa, ¿qué tipo de mayoría necesitas en el Congreso?",
+    "opciones": [
+      "Mayoría simple, con que haya un voto más a favor que en contra, vale. ¡Esto es la guerra!",
+      "Mayoría absoluta, o sea, la mitad más uno de los escaños. Hay que currárselo, no es jauja.",
+      "Unanimidad, que todos los diputados se pongan de acuerdo. Vamos, que es imposible."
+    ],
+    "correcta": 1,
+    "explicacion": "Absoluta, campeón. Tienes que convencer a 176 de sus señorías. Si pensabas que era más fácil, es que vives en Narnia. ¡Ponte las pilas!"
+  },
+  {
+    "id": 68,
+    "tema": "Azul Eléctrico",
+    "titulo": "El casting de Presidentes",
+    "pregunta": "Después de unas elecciones, el Rey se reúne con los partidos para ver quién tiene opciones de ser Presidente. ¿Cuál es su papel en este casting?",
+    "opciones": [
+      "Proponer al candidato que le parezca más simpático y con mejor planta en las fotos.",
+      "Obligar a los partidos a que pacten para que dejen de dar la matraca de una vez.",
+      "Proponer formalmente un candidato al Congreso después de hablar con los representantes políticos."
+    ],
+    "correcta": 2,
+    "explicacion": "Exacto, propone al que cree que puede salir investido, no a su colega del pádel. Es un intermediario de lujo, pero no decide nada. ¿Queda claro?"
+  },
+  {
+    "id": 69,
+    "tema": "Azul Eléctrico",
+    "titulo": "Quién nos representa (en teoría)",
+    "pregunta": "Según el sacrosanto artículo 66.1 de la Constitución, las Cortes Generales... ¿a quién representan? Piénsalo bien, que la respuesta ofende.",
+    "opciones": [
+      "A los lobbies y a las grandes empresas que les pagan las campañas.",
+      "Al pueblo español. Sí, a ti también, aunque no te lo creas cuando les ves discutir.",
+      "A sus respectivos partidos políticos, que para eso les ponen en las listas y les dicen qué votar."
+    ],
+    "correcta": 1,
+    "explicacion": "Pues sí, por increíble que parezca, te representan a ti y al resto del 'pueblo español'. Otra cosa es que a veces no lo parezca. ¡Punto para ti si acertaste!"
+  },
+  {
+    "id": 70,
+    "tema": "Azul Eléctrico",
+    "titulo": "Principios del Fiscal",
+    "pregunta": "El Ministerio Fiscal tiene que actuar con dos principios que son más difíciles de mantener que una dieta en Navidad. ¿Cuáles son?",
+    "opciones": [
+      "Con nocturnidad y alevosía, para pillar a los malos por sorpresa.",
+      "Sujeto a los principios de legalidad e imparcialidad, aunque suene a chiste.",
+      "Siguiendo las instrucciones del Gobierno y con un ojo puesto en las portadas de los periódicos."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Ole tú! Legalidad e imparcialidad. Aunque haya jerarquía, se deben a la ley, no al jefe de turno. Si te sabías esta, igual hasta apruebas y todo."
+  },
+  {
+    "id": 71,
+    "tema": "Verde Ácido",
+    "titulo": "Estructura para Dummies",
+    "pregunta": "A ver, máquina. El artículo 137 dice que el Estado se organiza en municipios, provincias y CCAA. ¿Qué significa la 'autonomía' que les dan? ¿Que pueden declararse república independiente si les da el siroco?",
+    "opciones": [
+      "Significa que tienen poder para hacer lo que les salga del moño siempre que no molesten al vecino.",
+      "Es la capacidad de gestionar sus propios intereses, como si fueran una comunidad de vecinos gigante pero con presupuesto y menos gritos en las juntas.",
+      "Implica que son totalmente soberanos y el Estado es un mero espectador que aplaude y financia la fiesta."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Correcto! Es para gestionar sus intereses, no para montar su propio Eurovisión. Si fallaste, igual deberías empezar por Barrio Sésamo antes que por la Constitución."
+  },
+  {
+    "id": 72,
+    "tema": "Verde Ácido",
+    "titulo": "La Visa Oro Autonómica",
+    "pregunta": "El 156 suelta que las CCAA tienen autonomía financiera. Vale, muy bonito, pero ¿para qué demonios les sirve ese poderío económico?",
+    "opciones": [
+      "Para que cada barón autonómico se construya un palacio de invierno y otro de verano, que gobernar cansa mucho.",
+      "Para desarrollar y ejecutar sus competencias, básicamente para pagar las facturas de los chiringuitos que la Constitución les deja montar.",
+      "Es un fondo de reptiles para financiar campañas de desprestigio contra las demás CCAA en Twitter."
+    ],
+    "correcta": 1,
+    "explicacion": "Exacto, es para pagar sus competencias, no para lujos asiáticos. Si pensabas que era para otra cosa, tienes un futuro brillante en la política, no en la oposición."
+  },
+  {
+    "id": 73,
+    "tema": "Verde Ácido",
+    "titulo": "¿De dónde sale la pasta?",
+    "pregunta": "Las Comunidades Autónomas necesitan 'cash' para funcionar. Según el sagrado artículo 157, ¿cuál de estas NO es una de sus fuentes de ingresos?",
+    "opciones": [
+      "El cepillo de las iglesias y las donaciones anónimas en los mítines, que la fe mueve montañas... de dinero.",
+      "Sus propios impuestos, tasas y contribuciones especiales, además de recargos sobre impuestos del Estado. El sablazo a varios niveles.",
+      "Transferencias del Fondo de Compensación Interterritorial y otras asignaciones con cargo a los Presupuestos Generales del Estado."
+    ],
+    "correcta": 0,
+    "explicacion": "¡Bingo! El cepillo de la iglesia no sale en la Constitución, por ahora. Si caíste, reza para que no te pregunten esto en el examen de verdad."
+  },
+  {
+    "id": 74,
+    "tema": "Verde Ácido",
+    "titulo": "El Mercadillo de Competencias",
+    "pregunta": "El 148 es como un catálogo de El Corte Inglés para las CCAA. ¿Cuál de estas competencias pueden pillar para su Estatuto de Autonomía?",
+    "opciones": [
+      "La gestión de la sanidad exterior y las relaciones con la OMS, para ser los primeros en enterarse del próximo apocalipsis zombi.",
+      "El control del espacio aéreo y la designación de los nombres de las estrellas, porque 'Estrella de mi pueblo' suena mejor que 'Alfa Centauri'.",
+      "La promoción y ordenación del turismo en su ámbito territorial, para llenarlo todo de guiris y subir el precio de la cerveza."
+    ],
+    "correcta": 2,
+    "explicacion": "¡Acertaste! Pueden dedicarse a la noble tarea de atraer turistas. Lo de nombrar estrellas déjaselo a la NASA, anda. Si fallaste, es que ni para guía turístico sirves."
+  },
+  {
+    "id": 75,
+    "tema": "Verde Ácido",
+    "titulo": "El Gran Hermano Constitucional",
+    "pregunta": "Si una Comunidad Autónoma se pone un poco 'creativa' con sus leyes y presupuestos, el artículo 153 dice que alguien la vigila. ¿Quién es el poli malo en este cotarro?",
+    "opciones": [
+      "La Asociación de Vecinos de la Calle Génova y Ferraz, que se turnan para ver quién critica más fuerte.",
+      "Un comité de sabios formado por ex-concursantes de Gran Hermano, que de vigilar saben un rato.",
+      "El Tribunal Constitucional, el Gobierno, la jurisdicción contencioso-administrativa y el Tribunal de Cuentas. Básicamente, todo el aparato del Estado."
+    ],
+    "correcta": 2,
+    "explicacion": "¡En el clavo! No es uno, son un montón de vigilantes. Si elegiste otra, quizá confundes la Constitución con Sálvame Deluxe. No te culpo, a veces se parecen."
+  },
+  {
+    "id": 76,
+    "tema": "Verde Ácido",
+    "titulo": "Principios y Lentejas",
+    "pregunta": "El artículo 156, además de darles la tarjeta de crédito a las CCAA, establece un par de principios. Uno es la solidaridad entre todos los españoles. ¿Y el otro cuál es?",
+    "opciones": [
+      "La coordinación con la Hacienda estatal, para que no parezca esto el Oeste sin ley y cada uno dispare con la pólvora del rey.",
+      "El principio de 'sálvese quien pueda', que fomenta la competencia fiscal hasta el infinito y más allá.",
+      "El principio de 'gasto luego existo', que obliga a las CCAA a fundirse todo el presupuesto antes del 31 de diciembre."
+    ],
+    "correcta": 0,
+    "explicacion": "¡Correcto! Coordinación, para que no se pisen la manguera entre ellos con los impuestos. Si fallaste, no te preocupes, muchos políticos tampoco se lo han leído."
+  },
+  {
+    "id": 77,
+    "tema": "Verde Ácido",
+    "titulo": "¿A quién llamo si hay un jabalí?",
+    "pregunta": "Vas por el campo y te cruzas un jabalí con malas pulgas. Según las competencias que las CCAA pueden asumir en el 148, ¿a quién le compete gestionar la caza y la pesca fluvial?",
+    "opciones": [
+      "A la Guardia Civil, sección SEPRONA, que para eso tienen el sombrero ese tan chulo y cara de pocos amigos.",
+      "Al Ministerio de Transición Ecológica, que decide desde un despacho en Madrid a qué hora pueden salir los peces a comer.",
+      "A la propia Comunidad Autónoma, que para algo puede asumir esas competencias y poner sus propias normas de caza, como la veda del gamusino."
+    ],
+    "correcta": 2,
+    "explicacion": "¡Así es! Es cosa de la CCAA. Si llamaste al Ministerio, para cuando te contesten el jabalí ya se ha comido tu almuerzo y el de mañana. Ánimo con ese instinto de supervivencia."
+  },
+  {
+    "id": 78,
+    "tema": "Verde Ácido",
+    "titulo": "El Contable Supremo",
+    "pregunta": "El Tribunal de Cuentas es uno de los que controlan el chiringuito autonómico, según el 153. ¿De qué se encarga exactamente este señor con manguitos?",
+    "opciones": [
+      "De revisar si las facturas de los restaurantes de los políticos autonómicos llevan el IVA correcto.",
+      "Del control económico y presupuestario, es decir, de mirar con lupa en qué se gastan la pasta para que no se la lleven cruda.",
+      "De organizar el amigo invisible de los altos cargos de las CCAA para fomentar el compañerismo."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Exacto! Su misión es evitar el desfalco, o al menos intentarlo. Si fallaste, igual deberías repasar la diferencia entre un contable y un organizador de eventos."
+  },
+  {
+    "id": 79,
+    "tema": "Verde Ácido",
+    "titulo": "El Bolsillo del Estado",
+    "pregunta": "El 157 dice que una parte de la tarta de las CCAA viene de 'transferencias de un Fondo de Compensación'. ¿Para qué sirve ese fondo con nombre de ONG?",
+    "opciones": [
+      "Para compensar a los presidentes autonómicos por el estrés de tener que aguantar a la oposición.",
+      "Para corregir desequilibrios económicos interterritoriales y hacer efectivo el principio de solidaridad.",
+      "Es una hucha común para pagar las multas que la Unión Europea le pone a España por pasarse de lista."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Lo tienes! Sirve para que las CCAA más pobres no tengan que financiarse vendiendo rifas. Si elegiste otra cosa, tu concepto de 'compensación' es... peculiar."
+  },
+  {
+    "id": 80,
+    "tema": "Verde Ácido",
+    "titulo": "Autonomía no es Soberanía",
+    "pregunta": "Venga, la última y a dormir. El 137 garantiza la autonomía de municipios, provincias y CCAA. ¿Cuál es la diferencia clave entre esta 'autonomía' y la 'soberanía' que tiene el Estado?",
+    "opciones": [
+      "Que la soberanía te permite tener un ejército y un asiento en la ONU, y la autonomía te permite ponerle nombres absurdos a las calles.",
+      "No hay ninguna, es un sinónimo que usan los juristas para parecer más listos y cobrar más.",
+      "Que la soberanía es un poder originario e ilimitado, mientras que la autonomía es un poder derivado, concedido y limitado por la Constitución."
+    ],
+    "correcta": 2,
+    "explicacion": "¡Premio! Soberanía es el poder del jefe final del juego, y autonomía es el poder que te dan para pasar de nivel. Si no lo ves claro, apaga la consola y vuelve a abrir el manual."
+  },
+  {
+    "id": 81,
+    "tema": "Naranja",
+    "titulo": "Art. 44 - Notificación a lo Houdini",
+    "pregunta": "A ver, lumbreras. La Administración intenta notificarte algo, pero tú estás más perdido que un pulpo en un garaje. Después de dos intentos fallidos en tu domicilio, ¿qué genialidad se le ocurre a la AAPP para que te enteres de una vez?",
+    "opciones": [
+      "Te mandan un burofax con acuse de recibo y un jamón de Jabugo para que les hagas caso, que ya está bien de hacerse el sueco.",
+      "Publican un anuncio en el BOE, ese bestseller que lees con el café, para que todo el país se entere de tus movidas administrativas.",
+      "Desisten del procedimiento y te dejan en paz, que bastante tienen con buscar a Wally como para buscarte a ti también."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Bingo! Te publican en el BOE, porque tu vida privada es de interés general. Si no te enteras es tu problema. Art. 44, por si no te acordabas."
+  },
+  {
+    "id": 82,
+    "tema": "Naranja",
+    "titulo": "Art. 40 - La rapidez administrativa",
+    "pregunta": "La Administración por fin ha parido el acto administrativo que resuelve tu miserable solicitud. ¿Cuánto tiempo tiene para dignarse a contártelo antes de que te salgan canas esperando?",
+    "opciones": [
+      "10 días contados desde que se dicta el acto. Que no se diga que no son rápidos... para lo que quieren.",
+      "Un mes, que redactar una notificación con su sellito y su firma lleva su tiempo, no te creas tú que es soplar y hacer botellas.",
+      "Cuando les venga bien. Son la Administración, ¿recuerdas? Su agenda es más importante que tu ansiedad."
+    ],
+    "correcta": 0,
+    "explicacion": "Exacto, 10 tristes días. Que luego tarden más es otro cantar, pero la ley dice eso. A llorar a la llorería, que dice el Art. 40."
+  },
+  {
+    "id": 83,
+    "tema": "Naranja",
+    "titulo": "Art. 24 - El silencio de los corderos",
+    "pregunta": "Llevas esperando una respuesta de la Administración más tiempo que el que tardaron en construir el Escorial. Como no te dicen ni 'mu', ¿qué se supone que debes pensar según la regla generalísima?",
+    "opciones": [
+      "Que te han mandado a la porra. El que calla, niega. Así que vete preparando el recurso de alzada, campeón.",
+      "Que han perdido tu expediente y están buscando a un becario al que echarle la culpa. Tú sigue esperando sentado.",
+      "Que te han dicho que sí a todo, ¡fiesta! El silencio es positivo, así que por regla general te han concedido lo que pedías por la cara."
+    ],
+    "correcta": 2,
+    "explicacion": "¡Pues sí, te han dicho que SÍ! Por regla general, si se callan es que otorgan. Luego ya veremos las excepciones, que son más largas que un día sin pan. Art. 24."
+  },
+  {
+    "id": 84,
+    "tema": "Naranja",
+    "titulo": "Art. 28 - El síndrome de Dory",
+    "pregunta": "Vas a iniciar un trámite y te piden hasta el certificado de bautismo de tu tatarabuelo. Si ya les diste tu DNI para otro procedimiento hace un mes, ¿qué les dices?",
+    "opciones": [
+      "Que lo busquen ellos, que para eso cobran. Ya lo tienen, así que menos fotocopias y más trabajar, que parece que tienen amnesia.",
+      "Se lo das otra vez y pones buena cara. Discutir con un funcionario es como jugar al ajedrez con una paloma: tira las piezas, se caga en el tablero y se va.",
+      "Les mandas el DNI por triplicado y compulsado por un notario de Pernambuco, por si acaso pierden dos copias."
+    ],
+    "correcta": 0,
+    "explicacion": "¡Con un par! No tienes que aportar documentos que ya obren en su poder. Que se levanten de la silla y lo busquen. El Art. 28 te da la razón, úsalo."
+  },
+  {
+    "id": 85,
+    "tema": "Naranja",
+    "titulo": "Art. 14 - Modernitos a la fuerza",
+    "pregunta": "Tu primo, el que montó una S.L. para vender calcetines por internet, quiere presentar una solicitud en Hacienda. ¿Puede ir con sus papeles bajo el brazo a la ventanilla como en los tiempos de Maricastaña?",
+    "opciones": [
+      "Claro que sí, hombre. La ventanilla única es para todos, y el contacto humano nunca debe perderse. Además, así charla con la funcionaria.",
+      "Ni de coña. Por ser persona jurídica, está más obligado a usar el certificado digital que a respirar. A la web o a la web, no hay más.",
+      "Depende de si el funcionario tiene el día bueno y le apetece escanearle los 200 folios. Es a su elección, como casi todo en esta vida."
+    ],
+    "correcta": 1,
+    "explicacion": "Se siente, tu primo el emprendedor vive en el siglo XXI. Las personas jurídicas, por el Art. 14, están OBLIGADAS a relacionarse por medios electrónicos. Que se deje de paseos."
+  },
+  {
+    "id": 86,
+    "tema": "Naranja",
+    "titulo": "Art. 44 - El BOE y sus consecuencias",
+    "pregunta": "Vale, ya te han publicado el anuncio en el BOE porque eres un fantasma y no te encuentran. ¿Desde cuándo se considera que te han notificado oficialmente y empiezan a correr los plazos para que te fastidien?",
+    "opciones": [
+      "Desde que un amigo te avisa por WhatsApp de que sales en el BOE. La tecnología al servicio del ciudadano, ¿no?",
+      "Desde que la Administración recibe el acuse de recibo de la imprenta del BOE, que todo tiene que quedar registrado para la posteridad.",
+      "Desde el día siguiente al de su publicación. Y si no lo has leído, te aguantas. Ignorantia legis non excusat, chaval."
+    ],
+    "correcta": 2,
+    "explicacion": "Pues eso, al día siguiente de la publicación. La Administración cumple con publicarlo; si tú usas el BOE para calzar mesas es problema tuyo. ¡A correr! Art. 44."
+  },
+  {
+    "id": 87,
+    "tema": "Naranja",
+    "titulo": "Art. 24 - El chiringuito playero",
+    "pregunta": "Te vienes arriba y solicitas construirte un chiringuito en primera línea de playa, ocupando dominio público. Pasan los meses y la Administración calla como una muerta. ¿Qué significa ese silencio sepulcral?",
+    "opciones": [
+      "¡Chiringuito para ti! El silencio es positivo, así que ve comprando las hamacas y la freidora de calamares.",
+      "Que te han dicho que no con la boca pequeña. En temas de dominio público, si no contestan es un 'nanai' en toda regla.",
+      "Que están de vacaciones en tu futuro chiringuito y por eso no contestan. Dales tiempo, que el verano es muy largo."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Quieto parao, Amancio Ortega! En solicitudes que afecten al dominio público, el silencio es NEGATIVO. Te quedas sin chiringuito. Lo dice el Art. 24.1."
+  },
+  {
+    "id": 88,
+    "tema": "Naranja",
+    "titulo": "Art. 14 - Paca y el DNI electrónico",
+    "pregunta": "Tu abuela Paca, que usa el móvil para jugar a la petanca virtual y poco más, quiere pedir la ayuda de la dependencia. ¿Pueden obligarla a apañárselas con el sistema Cl@ve?",
+    "opciones": [
+      "Paca elige. Como persona física, tiene el DERECHO de elegir si se pelea con el ordenador o si va a la ventanilla a dar la chapa.",
+      "La obligan, claro. La brecha digital es un mito, y si no sabe, que aprenda o que pague a un gestor. La ley es la ley para todos.",
+      "Solo puede en persona si la web está caída, y tiene que demostrarlo con una captura de pantalla firmada por notario."
+    ],
+    "correcta": 0,
+    "explicacion": "¡Paca manda! Las personas físicas, por defecto, tienen derecho a elegir el canal. La obligación es para otros colectivos. Así que larga vida a la ventanilla. Art. 14.1."
+  },
+  {
+    "id": 89,
+    "tema": "Naranja",
+    "titulo": "Art. 40 - Contenido de la notificación",
+    "pregunta": "Te llega una notificación y, para que sea legal y no un simple trozo de papel para prender la barbacoa, ¿qué información mínima te tiene que incluir, aparte de la mala noticia?",
+    "opciones": [
+      "El nombre del funcionario que la firma y su número de teléfono personal, por si quieres llamarle para desahogarte.",
+      "Un resumen del acto en lenguaje para 'dummies' y un enlace a un vídeo de TikTok explicativo, que estamos en la era digital.",
+      "El texto íntegro, si pone fin a la vía administrativa, los recursos que caben, ante quién y en qué plazo. Un pack completo de 'búscate la vida'."
+    ],
+    "correcta": 2,
+    "explicacion": "Efectivamente. Te tienen que dar la resolución entera y el manual de instrucciones para recurrir. Si falta algo, la notificación es defectuosa y puedes pelearla. Art. 40.2."
+  },
+  {
+    "id": 90,
+    "tema": "Naranja",
+    "titulo": "Art. 28 - El Gran Hermano Administrativo",
+    "pregunta": "La Administración necesita saber si estás al corriente de pago con Hacienda para darte una subvención. Según la ley, ¿cuál es el modus operandi por defecto?",
+    "opciones": [
+      "Te mandan a ti a hacer cola en Hacienda para pedir un certificado, porque les encanta verte pasear papeles de una ventanilla a otra.",
+      "Consultarán tus datos directamente, porque se presupone que les das tu bendición para que cotilleen, a no ser que te opongas expresamente.",
+      "Te piden una autorización firmada ante notario con reconocimiento de firma y sello de La Haya. Tu privacidad es lo primero."
+    ],
+    "correcta": 1,
+    "explicacion": "Pues sí, se da por hecho que les dejas cotillear tus datos entre ellas. Tienen derecho a consultarlos salvo que te opongas (y si te opones, te tocará aportarlos a ti). Art. 28.2."
+  },
+  {
+    "id": 91,
+    "tema": "Rojo",
+    "titulo": "La Admin se arrepiente",
+    "pregunta": "La Administración se da cuenta de que la ha liado parda con un acto favorable para ti. ¿Qué hace para intentar arreglar su propia cagada y quitártelo?",
+    "opciones": [
+      "Se saca de la manga una declaración de lesividad, que es como decir 'ups, me equivoqué a tu favor y ahora quiero jorobarte', para luego ir a llorar a un juez.",
+      "Anula el acto directamente y sin anestesia, que para eso manda ella, y te deja con cara de tonto y sin tu derecho.",
+      "Te manda un WhatsApp pidiendo por favor que renuncies al favor, que de buenas se entiende la gente y así no montan un circo."
+    ],
+    "correcta": 0,
+    "explicacion": "¿En serio dudabas? La Admin no puede anular por las bravas un acto que te beneficia. Primero tiene que declararlo 'lesivo' para poder suplicarle al juez que lo quite. Espabila."
+  },
+  {
+    "id": 92,
+    "tema": "Rojo",
+    "titulo": "No te pueden joder más",
+    "pregunta": "Recurres una multa de 100€ porque eres un ciudadano ejemplar (o eso dices). El que resuelve, que se ha levantado con el pie izquierdo, ¿qué es lo peor que te puede pasar?",
+    "opciones": [
+      "Que te suban la multa a 500€ y te quiten puntos del carnet, por listillo y por hacerles perder el tiempo.",
+      "Que te manden a freír espárragos y te quedes con tu multita de 100€, porque la ley prohíbe empeorar tu situación por quejarte (reformatio in peius).",
+      "Que anulen la multa pero te abran un expediente por desacato, que recurrir es de gente que se cree más que nadie."
+    ],
+    "correcta": 1,
+    "explicacion": "¡Claro que no te pueden joder más! Se llama prohibición de la 'reformatio in peius'. Bastante tienes con aguantar la resolución, como para que encima te empeoren el panorama por protestar."
+  },
+  {
+    "id": 93,
+    "tema": "Rojo",
+    "titulo": "Llorar al mismo",
+    "pregunta": "Te notifican una resolución que pone fin a la vía administrativa y tú, en un ataque de optimismo, decides poner un recurso de reposición. ¿A quién le tienes que ir a dar la turra?",
+    "opciones": [
+      "Al superior jerárquico, que para eso es el jefe y tiene que poner orden en el gallinero de abajo.",
+      "Directamente al juez, que ya estás hasta el gorro de funcionarios y quieres que un adulto ponga orden de una vez.",
+      "Al mismo genio que dictó el acto, para darle una segunda oportunidad de iluminarse. Es como volver con tu ex esperando que haya cambiado."
+    ],
+    "correcta": 2,
+    "explicacion": "Reposición = Repetir. Le das la brasa al MISMO órgano. Si el acto agota la vía, o vas al mismo a que se lo repiense (reposición) o te vas al juzgado. No hay más. A ver si memorizamos."
+  },
+  {
+    "id": 94,
+    "tema": "Rojo",
+    "titulo": "Chivarse al jefe",
+    "pregunta": "Un jefecillo de tres al cuarto te deniega algo, pero su decisión no agota la vía administrativa. Quieres seguir peleando sin gastarte un duro en abogados. ¿Cuál es tu siguiente movimiento, estratega?",
+    "opciones": [
+      "Presentar un recurso de alzada, que es como chivarte al profe de que el delegado de clase te ha castigado. Vas a llorarle al de arriba.",
+      "Poner un recurso de reposición, a ver si el mismo que te la ha jugado se ilumina y cambia de opinión por arte de magia.",
+      "Irte directo al Contencioso-Administrativo, porque tienes alma de pleiteador y te sobra el tiempo y el dinero."
+    ],
+    "correcta": 0,
+    "explicacion": "Si no agota la vía, toca 'alzada'. Tienes que ir al superior a que le tire de las orejas al de abajo. Es el ABC de los recursos, colega. ¡No me falles en esto!"
+  },
+  {
+    "id": 95,
+    "tema": "Rojo",
+    "titulo": "El tiempo corre, colega",
+    "pregunta": "Descubres un documento clave que demuestra que la Administración te sancionó injustamente hace un año. Estaba en un cajón olvidado. ¿Cuánto tiempo tienes para montar el pollo con un recurso extraordinario de revisión?",
+    "opciones": [
+      "Cuatro años desde que te notificaron la sanción. Tómatelo con calma, que el Estado de Derecho no tiene prisa.",
+      "Tienes 3 meses desde que el documento milagroso vio la luz. Más te vale espabilar o te comes la sanción con patatas.",
+      "Nada. El plazo era de un mes desde el acto. Te aguantas y para la próxima prestas más atención a tus cajones."
+    ],
+    "correcta": 1,
+    "explicacion": "Para documentos nuevos o sentencias falsas, el plazo es de tres meses desde que te enteras del percal. Los cuatro años son para otros supuestos. ¡Que no te la líen con los plazos, que es de primero de opositor!"
+  },
+  {
+    "id": 96,
+    "tema": "Rojo",
+    "titulo": "El paripé de la lesividad",
+    "pregunta": "Cuando la Administración declara la lesividad de uno de sus propios actos, ¿qué está haciendo realmente, aparte de reconocer que es un poco torpe?",
+    "opciones": [
+      "Está anulando el acto de forma fulminante porque ha detectado un error y aquí mando yo y punto.",
+      "Está iniciando un expediente sancionador contra el funcionario que cometió el error, para que aprenda a hacer bien su trabajo.",
+      "Está preparando el terreno para ir a llorarle a un juez, porque no puede anular por las bravas un acto que te beneficia."
+    ],
+    "correcta": 2,
+    "explicacion": "La declaración de lesividad es el ticket de entrada para ir al juzgado. La Admin no puede anular sin más un acto favorable que ha creado derechos. Es su forma de decir 'Señoría, he metido la pata, arréglelo'."
+  },
+  {
+    "id": 97,
+    "tema": "Rojo",
+    "titulo": "No te vayas por las ramas",
+    "pregunta": "En tu recurso, pides A, B y C. La Administración, en su infinita sabiduría, te resuelve sobre A, ignora B y te habla del tiempo que hace en Cuenca. ¿Qué principio sagrado se está pasando por el forro?",
+    "opciones": [
+      "El principio de congruencia, que básicamente significa que tienen que responder a lo que preguntas, no irse por los cerros de Úbeda como tu cuñado en Navidad.",
+      "El principio de 'non reformatio in peius', porque hablar del tiempo es claramente peor que denegarte algo.",
+      "El principio de 'pro actione', que obliga a la Admin a darte la razón siempre para que no te agobies con papeleos."
+    ],
+    "correcta": 0,
+    "explicacion": "¡Congruencia, por dios! Tienen que ceñirse a lo que has pedido. Si les pides peras, no te pueden dar manzanas ni un discurso sobre el cambio climático. A ver si nos centramos."
+  },
+  {
+    "id": 98,
+    "tema": "Rojo",
+    "titulo": "Diferencias para lerdos",
+    "pregunta": "Tu amigo, que va más perdido que un pulpo en un garaje, te pregunta: 'Tío, ¿cuál es la diferencia clave entre el recurso de alzada y el de reposición?'. ¿Qué le respondes para que lo entienda de una vez?",
+    "opciones": [
+      "Que el de alzada es para cosas gordas y el de reposición para tonterías, se mide por la cantidad de dinero en juego.",
+      "Que en alzada vas a chivarte al de arriba (superior) y en reposición le das la brasa al mismo que te la ha liado (mismo órgano).",
+      "Que el de alzada es obligatorio ponerlo, y el de reposición es voluntario, por eso puedes pasar de él si te apetece."
+    ],
+    "correcta": 1,
+    "explicacion": "La diferencia es a QUIÉN le das la matraca. Alzada al superior (el acto no agota la vía). Reposición al mismo órgano (el acto sí agota la vía). ¿Tan difícil es?"
+  },
+  {
+    "id": 99,
+    "tema": "Rojo",
+    "titulo": "Causas de culebrón",
+    "pregunta": "El recurso extraordinario de revisión es para situaciones muy heavies. ¿Cuál de estas desgracias te abriría la puerta a usar esa bala de plata?",
+    "opciones": [
+      "Que simplemente no estás de acuerdo con la resolución, te parece injusta y tienes un pálpito de que se equivocaron.",
+      "Que el funcionario que resolvió tu caso te cae fatal y estás seguro de que lo hizo por pura manía personal.",
+      "Que aparezca un documento clave que no tenías, o se demuestre que la resolución se basó en un soborno. Vamos, un culebrón."
+    ],
+    "correcta": 2,
+    "explicacion": "El recurso de revisión no es para lloriqueos. Es para causas tasadas y gravísimas: documentos nuevos, sentencias falsas, cohecho... Cosas de película, no porque te dé una corazonada."
+  },
+  {
+    "id": 100,
+    "tema": "Rojo",
+    "titulo": "Opcional, no obligatorio",
+    "pregunta": "Te cascan una resolución que agota la vía administrativa. El recurso de reposición es 'potestativo'. ¿Qué significa eso en el idioma de la gente normal?",
+    "opciones": [
+      "Que te lo puedes saltar a la torera e ir directamente a llorar al juez si te da la gana. Es un 'por si cuela' opcional.",
+      "Que es obligatorio ponerlo, pero puedes redactarlo con faltas de ortografía si quieres, la 'potestad' es tuya.",
+      "Que la Administración tiene la potestad de admitirlo o no según le pilles el día, es una lotería."
+    ],
+    "correcta": 0,
+    "explicacion": "Potestativo = Opcional. Si el acto agota la vía, tienes dos caminos: o intentas la reposición (opcional) o te vas directo al juzgado. Nadie te obliga a darles una segunda oportunidad. ¡A la guerra!"
   }
 ]

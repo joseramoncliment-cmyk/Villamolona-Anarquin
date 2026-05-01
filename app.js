@@ -8,7 +8,7 @@
 // Versión del banco de preguntas del servidor.
 // Cambiar este valor fuerza a todos los usuarios a descargar el banco nuevo,
 // invalidando cualquier caché local o preguntas personalizadas anteriores.
-const DB_VERSION = "2026-05-01-v1";
+const DB_VERSION = "2026-05-01-v2";
 const LS_KEY_PREGUNTAS = "anarquin_preguntas";
 const LS_KEY_VERSION  = "anarquin_db_version";
 
