@@ -743,21 +743,41 @@ function mostrarCelebracion(key, callback) {
   const cfg = CELEBRACION_CONFIG[key];
   if (!cfg) return;
 
-  // Sonido
+  // Sonido — encodeURI para manejar espacios en nombres de archivo
   try {
-    const audio = new Audio(cfg.sonido);
+    const audio = new Audio(encodeURI(cfg.sonido));
     audio.volume = 0.85;
     audio.play().catch(() => {});
   } catch(e) {}
 
+  // Reset de estilos inline previos para que la animación CSS se re-dispare
+  const splash = document.getElementById("anarquin-splash-img");
+  const glow   = document.getElementById("overlay-glow");
+  splash.style.animation  = "none";
+  splash.style.transform  = "scale(0)";
+  splash.style.opacity    = "0";
+  glow.style.animation    = "none";
+  glow.style.transform    = "scale(0)";
+  glow.style.opacity      = "0";
+
   // Color del glow
-  const glow = document.getElementById("overlay-glow");
   glow.style.background = `radial-gradient(circle, ${cfg.color} 0%, transparent 70%)`;
 
   // Lanzar confetti
   lanzarConfetti(cfg.color);
 
-  // Mostrar overlay
+  // Forzar reflow para que el reset de animation surta efecto antes de activar
+  void splash.offsetWidth;
+
+  // Quitar estilos inline para que el CSS tome el control de nuevo
+  splash.style.animation = "";
+  splash.style.transform = "";
+  splash.style.opacity   = "";
+  glow.style.animation   = "";
+  glow.style.transform   = "";
+  glow.style.opacity     = "";
+
+  // Mostrar overlay (dispara las animaciones CSS)
   const overlay = document.getElementById("anarquin-overlay");
   overlay.classList.add("active");
 
@@ -775,6 +795,17 @@ function cerrarOverlayCelebracion() {
   }
   const overlay = document.getElementById("anarquin-overlay");
   overlay.classList.remove("active");
+
+  // Fijar estado invisible mediante inline styles para cancelar animation fill-mode:forwards
+  const splash = document.getElementById("anarquin-splash-img");
+  const glow   = document.getElementById("overlay-glow");
+  splash.style.animation = "none";
+  splash.style.transform = "scale(0)";
+  splash.style.opacity   = "0";
+  glow.style.animation   = "none";
+  glow.style.transform   = "scale(0)";
+  glow.style.opacity     = "0";
+
   document.getElementById("confetti-container").innerHTML = "";
 }
 
