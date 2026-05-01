@@ -192,12 +192,12 @@ Genera EXACTAMENTE 10 preguntas tipo test sobre la categoría "${tema}" usando e
 ${articulos.map((a, i) => `${i + 1}. ${a}`).join('\n')}
 
 REGLAS CRÍTICAS QUE NO PUEDES SALTARTE:
-1. La pregunta en tono sarcástico y directo, como si hablaras a un opositor agotado que lleva meses estudiando
-2. Las 3 opciones de respuesta TODAS en el mismo tono sarcástico, irónico y coloquial. NUNCA hagas que la correcta sea "la única seria o técnica". Las tres deben sonar igualmente plausibles con jerga legal o cifras concretas.
-3. Distribuye el índice "correcta" variadamente: mezcla 0, 1 y 2 sin predecibilidad
-4. La explicación es breve, irónica y confirma la correcta con sorna
-5. "correcta" es el índice 0, 1 o 2 de la opción correcta en el array "opciones"
-6. No incluyas etiquetas tipo "Correcta:" dentro de las opciones. Que todas suenen seguras.
+1. La pregunta en tono sarcástico y directo, como si hablaras a un opositor agotado que lleva meses estudiando.
+2. CRÍTICO: Las 3 opciones de respuesta (la verdadera y las dos falsas) DEBEN tener EXACTAMENTE el mismo tono sarcástico, coloquial y "moonista". NUNCA, BAJO NINGÚN CONCEPTO, redactes la respuesta correcta de forma formal, educada o literal de la ley. Disfraza la verdad legal con ironía y burla para que el jugador no pueda adivinarla solo por ser "la opción seria". ¡Haz que sufran para acertar!
+3. Distribuye el índice "correcta" variadamente: mezcla 0, 1 y 2 sin predecibilidad.
+4. La explicación es breve, irónica y confirma la correcta con sorna, riéndose del opositor si falla.
+5. "correcta" es el índice 0, 1 o 2 de la opción correcta en el array "opciones".
+6. No incluyas etiquetas tipo "Correcta:" dentro de las opciones. Que todas suenen igual de seguras y vacilonas.
 
 Devuelve ÚNICAMENTE un array JSON válido sin ningún texto adicional ni markdown:
 [{"id":1,"tema":"${tema}","titulo":"string corto descriptivo","pregunta":"string sarcástico","opciones":["string con jerga legal","string con jerga legal","string con jerga legal"],"correcta":0,"explicacion":"string irónico breve"}]`;
@@ -268,6 +268,7 @@ async function generarTableroCompleto() {
     console.log(`✅ Tablero generado con ${preguntasDB.length} preguntas. Semilla: ${seed}`);
     ocultarCargando();
     show("pantalla-inicio");
+    alert("¡Nuevas preguntas cargadas con éxito! Que comience el sufrimiento.");
   } catch (err) {
     console.error("Error generando tablero:", err);
     actualizarCargando("💀 Gemini se ha ido de fiesta. Cargando preguntas de emergencia...");
@@ -282,8 +283,24 @@ async function generarTableroCompleto() {
     setTimeout(() => {
       ocultarCargando();
       show("pantalla-inicio");
+      alert("Error conectando con la IA. Se han cargado las preguntas de emergencia.");
     }, 2500);
   }
+}
+
+async function cargarBaseDeDatosLocal() {
+  mostrarCargando("Cargando la sagrada enciclopedia de Anarquín...");
+  try {
+    const resp = await fetch("preguntas.json");
+    if (!resp.ok) throw new Error("No se pudo cargar preguntas.json");
+    preguntasDB = await resp.json();
+    console.log(`✅ Base de datos estática cargada: ${preguntasDB.length} preguntas.`);
+  } catch (e) {
+    console.error("Error cargando base local:", e);
+    preguntasDB = [];
+  }
+  ocultarCargando();
+  show("pantalla-inicio");
 }
 
 // ==========================================
@@ -308,8 +325,13 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("btn-modo-trivial").addEventListener("click", iniciarModoTrivial);
   document.getElementById("btn-modo-test").addEventListener("click", iniciarModoTest);
   document.getElementById("btn-lanzar").addEventListener("click", lanzarDado);
+  
+  const btnGenerarIa = document.getElementById("btn-generar-ia");
+  if (btnGenerarIa) {
+    btnGenerarIa.addEventListener("click", generarTableroCompleto);
+  }
 
-  generarTableroCompleto();
+  cargarBaseDeDatosLocal();
 });
 
 // ==========================================
